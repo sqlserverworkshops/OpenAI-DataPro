@@ -1,36 +1,22 @@
 ![](graphics/microsoftlogo.png)
 
-# Workshop: Unlocking AI Potential for the Data Professional - Azure OpenAI
+# Workshop: Unlocking AI Potential for the Data Professional with Azure OpenAI
 
-#### <i>A Microsoft Course from the Microsoft FastTrack Team</i>
+#### <i>A Microsoft Course from Microsoft Engineering and the FastTrack Team</i>
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
 <img style="float: left; margin: 0px 15px 15px 0px;" src="https://raw.githubusercontent.com/microsoft/sqlworkshops/master/graphics/textbubble.png"> <h2>About this Workshop</h2>
 
-Welcome to this Microsoft solutions workshop on *<TODO: Enter workshop name>*. In this workshop, you'll learn <TODO: Describe what the students will learn>
+Welcome to this Microsoft solutions workshop on *Unlocking AI Potential for the Data Professional with Azure OpenAI*. In this workshop, you'll learn how to unleash the full potential of artificial intelligence. Whether you’re a seasoned Data Professional or just dipping your toes into the world of machine learning, this course will empower you with the knowledge to create groundbreaking solutions.
 
-Are you ready to unleash the full potential of artificial intelligence? Whether you’re a seasoned Data Professional or just dipping your toes into the world of machine learning, our full-day session will empower you with the knowledge to create groundbreaking solutions.
+#### In this workshop, you'll walk away with an understand of how to:
 
-Why Attend?
-Harness the Fusion: Discover how the synergy between artificial intelligence and cloud computing can revolutionize your business and data projects.
-Cutting-Edge Insights: Dive into the latest breakthroughs in natural language processing, computer vision, conversational AI, and generative models.
-Azure OpenAI Unveiled: Get an exclusive introduction to Azure Open AI, a comprehensive suite of tools and services designed to empower developers like you.
-Hands-On Collaboration: Engage in collaborative exercises where you’ll team up with fellow participants. Together, you’ll design robust architectures and make informed decisions about AI project implementation.
-Scalability and Security: Learn how to build scalable, secure, and production-ready AI/Data solutions using Azure OpenAI.
-
-Key Takeaways
-By the end of this session, you’ll walk away with:
-Deep Understanding: A solid grasp of the Azure Open AI ecosystem and its capabilities.
-Decision-Making Superpowers: The ability to make informed choices when it comes to AI project design and deployment.
-Insider Tips: Valuable insights and practical tips to elevate your AI projects to new heights.
-Join us on this transformative journey as we unlock the doors to AI innovation. This session promises to be a game-changer for your AI endeavors!
-
-
-
-The focus of this workshop is to understand <TODO: Describe the workshop's primay focus in one sentence>
-
-You'll start by <TODO: Describe what the flow of the workshop will be>, with a focus on how to extrapolate what you have learned to create other solutions for your organization.
+- Harness the Fusion: Discover how the synergy between artificial intelligence and cloud computing can revolutionize your business and data projects.
+- Gain cutting-Edge Insights: Dive into the latest breakthroughs in natural language processing, computer vision, conversational AI, and generative models.
+- Learn Azure OpenAI: Get an exclusive introduction to Azure Open AI, a comprehensive suite of tools and services designed to empower developers like you.
+- Get Hands-On Collaboration: Engage in collaborative exercises where you’ll team up with fellow participants. Together, you’ll design robust architectures and make informed decisions about AI project implementation.
+- Learn Scalability and Security: Learn how to build scalable, secure, and production-ready AI/Data solutions using Azure OpenAI.
 
 This [github README.MD file](https://lab.github.com/githubtraining/introduction-to-github) explains how the workshop is laid out, what you will learn, and the technologies you will use in this solution. To download this Lab to your local computer, click the **Clone or Download** button you see at the top right side of this page. [More about that process is here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository). 
 
@@ -40,23 +26,19 @@ You can view all of the [courses and other workshops our team has created at thi
 
 <img style="float: left; margin: 0px 15px 15px 0px;" src="https://raw.githubusercontent.com/microsoft/sqlworkshops/master/graphics/checkmark.png"> <h3>Learning Objectives</h3>
 
-In this workshop you'll learn:
+#### After this workshop you'll have:
 <br>
 
-- <TODO: Bullet-point on learning obective>
-- <TODO: Bullet-point on learning obective>
-- <TODO: Bullet-point on learning obective>
+- A Deep Understanding of AI and Data Projects: A solid grasp of the Azure Open AI ecosystem and its capabilities.
+- Decision-Making Power for Data/AI projects: The ability to make informed choices when it comes to AI project design and deployment.
+- Insider Tips on working with AI and Data: Valuable insights and practical tips to elevate your AI projects to new heights.
 
-<TODO: Enter the text you use when you submit the description for this course to a presentation, or advertising>
+Join us on this transformative journey as we unlock the doors to AI innovation. 
 
-The goal of this workshop is to train <TODO: Describe who you would train for this and why>.
+#### The concepts and skills taught in this workshop form the starting points for:
 
-The concepts and skills taught in this workshop form the starting points for:
-
-    <TODO: Job Description and level of person who is the primary that should attend and the reason>.
-    For instance: Solution Architects and Developers, to understand how to put together an end to end solution.
-    <TODO: Job Description and level of person who is the secondary that should attend and the reason>.
-    <TODO: Job Description and level of person who is the third-level of who might want to attend and the reason>.
+- Solution Architects and Developers, to understand how to put together an end to end Data and AI solution.
+- Data Professionals, to learn how to implement a data solution infused with AI.
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 <img style="float: left; margin: 0px 15px 15px 0px;" src="https://raw.githubusercontent.com/microsoft/sqlworkshops/master/graphics/building1.png"> <h2>Business Applications of this Workshop</h2>
