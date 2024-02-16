@@ -127,25 +127,25 @@ This is a modular workshop, and in each section, you'll learn concepts, technolo
   <tr><td style="background-color: AliceBlue; color: black;">
     <a href="#" target="_blank">02 - Implementing AI Studio </a> </td>
     <td td style="background-color: AliceBlue; color: black;"> Introduction, fundamentals, and a practical walkthrough of using Microsoft AI Studio. 
-    <p><i>(30 minutes) - NAME</i></p>
+    <p><i>(30 minutes) - Dan/Andres/Neeraj</i></p>
   </td></tr>
   
   <tr><td>
     <a href="#" target="_blank">03 - Coding fundamentals with Azure OpenAI </a></td>
     <td>  Using REST and API using the Azure OpenAI service. 
-    <p><i>(1 hour) - NAME</i></p> 
+    <p><i>(1 hour) - Andres/Joshua</i></p> 
   </td></tr>
 
   <tr><td>
     <a href="#" target="_blank">04 - Data Integrations with the Azure OpenAI Service </a></td>
     <td> Introduction, fundamentals and examples of using the Azure OpenAI service in Data/AI projects, including SQL Server on-premises, Azure SQL DB, and Microsoft Fabric Analytics. 
-    <p><i>(2.5 hours) - NAME</i></p>
+    <p><i>(2.5 hours) - Buck/Bradley/Nerraj</i></p>
   </td></tr>
   
   <tr><td style="background-color: AliceBlue; color: black;">
-    <a href="#" target="_blank">05 - Data/AI Project Best Practices</a> </td>
+    <a href="#" target="_blank">05 - Data/AI Projects Best Practices</a> </td>
     <td td style="background-color: AliceBlue; color: black;"> Security, Scale, and Safety concepts for using Azure OpenAI in Data/AI Projects. 
-    <p><i>(30 minutes) - NAME</i></p> 
+    <p><i>(30 minutes) - Neeraj/Bradley</i></p> 
   </td></tr>  
     
 </table>
