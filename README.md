@@ -117,19 +117,17 @@ This is a modular workshop, and in each section, you'll learn concepts, technolo
 
   <tr><td style="background-color: AliceBlue; color: black;"><b>Module</b></td><td style="background-color: AliceBlue; color: black;"><b>Topics</b></td></tr>
 
-  <tr><td><a href="https://github.com/yorek/sqlworkshops-sqldev/blob/master/sqldev/01%20-%20Introduction%20and%20Overview.md" target="_blank">01 - Introduction and Overview </a></td><td> Introductions, pre-requisites check, environment setup, overview of the workshop</td></tr>
+  <tr><td><a href="https://github.com/yorek/sqlworkshops-sqldev/blob/master/sqldev/01%20-%20Introduction%20and%20Overview.md" target="_blank">01 - Introduction and Overview </a></td><td> Pre-requisites check, environment setup, overview of the workshop. An introduction to Artificial Intelligence, progressing from foundations through Generative AI. <p><i>(30 minutes) - Buck</i></p></td></tr>
   
-  <tr><td style="background-color: AliceBlue; color: black;"><a href="https://github.com/yorek/sqlworkshops-sqldev/blob/master/sqldev/02%20-%20Tool%20Enhancements.md" target="_blank">02 - Tool Enhancements</a> </td><td td style="background-color: AliceBlue; color: black;"> Implementing the features of SQLCMD-GO</td></tr>
+  <tr><td style="background-color: AliceBlue; color: black;"><a href="https://github.com/yorek/sqlworkshops-sqldev/blob/master/sqldev/02%20-%20Tool%20Enhancements.md" target="_blank">02 - Implementing AI Studio </a> </td><td td style="background-color: AliceBlue; color: black;"> Introduction, fundamentals, and a practical walkthrough of using Microsoft AI Studio. <p><i>(30 minutes) - NAME</i></p></td></tr>
   
-  <tr><td><a href="https://github.com/yorek/sqlworkshops-sqldev/blob/master/sqldev/03%20-%20Native%20Ingtegrations%20with%20Other%20Services.md" target="_blank">03 - Native Integrations with Other Services </a></td><td>  REST and GraphQL support via Data API Builder, OneLake Integration </td></tr>
+  <tr><td><a href="https://github.com/yorek/sqlworkshops-sqldev/blob/master/sqldev/03%20-%20Native%20Ingtegrations%20with%20Other%20Services.md" target="_blank">03 - Coding fundamentals with Azure OpenAI </a></td><td>  Using REST and API using the Azure OpenAI service. <p><i>(1 hour) - NAME</i></p> </td></tr>
 
-  <tr><td><a href="https://github.com/yorek/sqlworkshops-sqldev/blob/master/sqldev/04%20-%20JSON%20Enhancements.md" target="_blank">04 - JSON Enhancements </a></td><td> Overview (OPENJSON + FOR JSON), Newly added feature JSON_OBJECT, Tips & Tricks (Use JSON to pass arrays to SPs), JSON Data Type </td></tr>
+  <tr><td><a href="https://github.com/yorek/sqlworkshops-sqldev/blob/master/sqldev/04%20-%20JSON%20Enhancements.md" target="_blank">04 - Data Integrations with the Azure OpenAI Service </a></td><td> Introductionmn, fundamentals and examples of using the Azure OpenAI service in Data/AI projects, including SQL Server on-premises, Azure SQL DB, and Microsoft Fabric Analytics. <p><i>(2.5 hours) - NAME</i></p></td></tr>
   
-  <tr><td style="background-color: AliceBlue; color: black;"><a href="https://github.com/yorek/sqlworkshops-sqldev/blob/master/sqldev/05%20-%20Function%20Enhancements.md" target="_blank">05 - Function Enhancements</a> </td>
-    <td td style="background-color: AliceBlue; color: black;"> New String Functions</td></tr>  
+  <tr><td style="background-color: AliceBlue; color: black;"><a href="https://github.com/yorek/sqlworkshops-sqldev/blob/master/sqldev/05%20-%20Function%20Enhancements.md" target="_blank">05 - Data/AI Project Best Practices</a> </td>
+    <td td style="background-color: AliceBlue; color: black;"> Security, Scale, and Safety concepts for using Azure OpenAI in Data/AI Projects. <p><i>(30 minutes) - NAME</i></p> </td></tr>  
     
-   <tr><td><a href="https://github.com/yorek/sqlworkshops-sqldev/blob/master/sqldev/06%20-%20Engine%20Enhancements.md" target="_blank">06 - Engine Enhancements </a></td><td> Optimized Locking</td></tr>
-  
 </table>
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
