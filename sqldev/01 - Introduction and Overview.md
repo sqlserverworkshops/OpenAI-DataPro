@@ -1,25 +1,28 @@
-![](../graphics/microsoftlogo.png)
+![](graphics/microsoftlogo.png)
 
-# Workshop: Developer Enhancements for SQL Server and Azure SQL DB
+# Workshop: Unlocking AI Potential for the Data Professional with Azure OpenAI
 
-#### <i>A Microsoft workshop from the SQL Server team</i>
+#### <i>A Microsoft Course from Microsoft Engineering and the FastTrack Team</i>
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
-<img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/textbubble.png"> <h2>Introduction and Overview</h2>
+<img style="float: left; margin: 0px 15px 15px 0px;" src="https://raw.githubusercontent.com/microsoft/sqlworkshops/master/graphics/textbubble.png"> <h2>Module 01 - Introduction and Overview</h2>
 
-In this workshop you'll cover using <TODO: Enter a brief description of the workshop>. 
+Welcome to this Microsoft solutions workshop on *Unlocking AI Potential for the Data Professional with Azure OpenAI*. In this workshop, you'll learn how to unleash the full potential of artificial intelligence. Whether you’re a seasoned Data Professional or just dipping your toes into the world of machine learning, this course will empower you with the knowledge to create groundbreaking solutions.
 
 In each module you'll get more references, which you should follow up on to learn more. Also watch for links within the text - click on each one to explore that topic.
 
 (<a href="file:///url" target="_blank">Make sure you check out the <b>Pre-Requisites</b> page before you start</a>. You'll need all of the items loaded there before you can proceed with the workshop.)
 
-You'll cover these topics in the workshop:
+<h2><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/education1.png">Topics In This Module</h2>
+
+The following topics are covered in this module:
+
 <dl>
 
-  <dt><a href="url" target="_blank">01 - <TODO: Enter Module Name<dt>
-  <dt><a href="url" target="_blank">01 - <TODO: Enter Module Name<dt>
-  <dt><a href="url" target="_blank">01 - <TODO: Enter Module Name<dt>
+  <dt><a href="url" target="_blank">1.1 - TODO: Enter Topic Name<dt>
+  <dt><a href="url" target="_blank">1.2 - TODO: Enter Topic Name<dt>
+  <dt><a href="url" target="_blank">1.3 - TODO: Enter Topic Name<dt>
 
 </dl>
 
@@ -72,4 +75,4 @@ TODO: Enter activity steps description with checkbox
     <li><a href="url" target="_blank">TODO: Enter courses, books, posts, whatever the student needs to extend their study</a></li>
 </ul>
 
-Congratulations! You have completed this workshop on <TODO: Enter workshop name>. You now have the tools, assets, and processes you need to extrapolate this information into other applications.
+Congratulations! You have completed this Module.<a href="#"> Click this link to continue to the next Module in the Workshop</a>.
