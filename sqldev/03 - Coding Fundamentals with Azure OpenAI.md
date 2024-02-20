@@ -20,9 +20,26 @@ The following topics are covered in this module:
 
 <dl>
 
-  <dt><a href="url" target="_blank">3.1 - TODO: Enter Topic Name<dt>
-  <dt><a href="url" target="_blank">3.2 - TODO: Enter Topic Name<dt>
-  <dt><a href="url" target="_blank">3.3 - TODO: Enter Topic Name<dt>
+  <dt><a href="url" target="_blank">3.1 - Workstreams<dt>
+  <dt><a href="url" target="_blank">3.2 - Core Concepts<dt>
+  <dt><a href="url" target="_blank">3.3 - Model Choices<dt>
+  <dt><a href="url" target="_blank">3.4 - Calling LLM using REST API<dt>
+  <dt><a href="url" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chat vs Completions<dt>
+  <dt><a href="url" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fire and Respond<dt>
+  <dt><a href="url" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Generation<dt>
+  <dt><a href="url" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Classification<dt>
+  <dt><a href="url" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Summarization<dt>
+  <dt><a href="url" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Translation<dt>
+  <dt><a href="url" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Recommendation<dt>
+  <dt><a href="url" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Scoring<dt>
+  <dt><a href="url" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sentiment<dt>
+  <dt><a href="url" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Intent<dt>
+  <dt><a href="url" target="_blank">3.5 - Zero Shot, One Shot, Few Shot<dt>
+  <dt><a href="url" target="_blank">3.6 - Chat with your own data (RAG Pattern)<dt>
+  <dt><a href="url" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ingestion<dt>
+  <dt><a href="url" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Grounding<dt>
+  <dt><a href="url" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Completion<dt>
+  <dt><a href="url" target="_blank">3.7 - Multi Modal Vision<dt>
 
 </dl>
 
