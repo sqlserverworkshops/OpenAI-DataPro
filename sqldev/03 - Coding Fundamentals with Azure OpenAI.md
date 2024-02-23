@@ -43,6 +43,52 @@ The following topics are covered in this module:
 
 </dl>
 
+Building blocks:
+
+Models
+  * What is an LLM model?
+  * What is a chat model?
+
+Tokens
+  * What is a token?
+  * Token Limits in Models
+  * Token in Throttling
+  * Prompt and Completions
+  * What is a Prompt?
+  * What is a Completion?
+  * Prompt Engineering
+ 
+Prompt/Cost Optimization
+ 
+* Adversarial Prompting
+ 
+* Calling models via REST
+ 
+* Calling models using SDKs
+* Python/C# OpenAI
+* Calling models using Orchestrators
+* Langchain
+* Semantic Kernel
+* Embeddings
+* Vector Databases
+* AI Search
+* Assistants
+ 
+Using the building blocks:
+* LLM use cases
+* RAG 
+* RAG Validation
+* Summarization
+* Semantic Cache
+* Enterprise Integillent Apps
+* WAF
+
+Landing Zone
+* Compute Selection
+* Governance (Policies, Monitoring, etc.)
+* IaC/DevOps
+* Private Networking
+
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
 <h2><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">3.1 TODO: Topic Name</h2>
