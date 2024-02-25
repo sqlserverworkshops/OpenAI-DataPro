@@ -20,21 +20,35 @@ The following topics are covered in this module:
 
 <dl>
 
-  <dt><a href="url" target="_blank">2.1 - TODO: Enter Topic Name<dt>
-  <dt><a href="url" target="_blank">2.2 - TODO: Enter Topic Name<dt>
-  <dt><a href="url" target="_blank">2.3 - TODO: Enter Topic Name<dt>
+  <dt><a href="url" target="_blank">2.1 - What is Azure AI Studio<dt>
+  <dt><a href="url" target="_blank">2.1 - Getting around in Azure AI Studio<dt>
+  <dt><a href="url" target="_blank">2.2 - Pricing, Billing, and Region Availability<dt>
+  <dt><a href="url" target="_blank">2.3 - How to get access<dt>
 
 </dl>
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
-<h2><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">2.1 TODO: Topic Name</h2>
-
-TODO: Topic Description
+<h2><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">2.1 What is Azure AI Studio</h2>
 
 <br>
 
-<img style="height: 400; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="https://docs.microsoft.com/en-us/sql/big-data-cluster/media/concept-security/cluster_endpoints.png">
+Azure AI Studio is a unified platform designed for developers to build, evaluate, and deploy generative AI applications. 
+
+<br>
+
+<img style="height: 400; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="https://learn.microsoft.com/en-us/azure/ai-studio/media/explore/ai-studio-home.png">
+
+Here are some key features of Azure AI Studio :
+
+- All-in-one AI platform: Azure AI Studio serves as a one-stop-shop for exploring, building, testing, and deploying generative AI solutions and custom copilots.
+- Enterprise-grade platform: It provides an enterprise-grade platform where developers can interact with a project code-first via the Azure AI SDK and Azure AI CLI.
+- Collaborative environment: Azure AI Studio fosters collaboration with shared files and connections to pretrained models, data, and compute.
+- Scalability: The platform facilitates scalability for transforming proof of concepts into full-fledged production with ease.
+- Continuous monitoring and refinement: It supports long-term success through continuous monitoring and refinement.
+
+Azure AI Studio is grounded in responsible AI practices and empowers developers of all abilities and preferences to innovate with AI and shape the future.
+It's currently in public preview.
 
 <br>
 
@@ -68,7 +82,7 @@ TODO: Enter activity steps description with checkbox
 
 <p><img style="margin: 0px 15px 15px 0px;" src="../graphics/owl.png"><b>For Further Study</b></p>
 <ul>
-    <li><a href="url" target="_blank">TODO: Enter courses, books, posts, whatever the student needs to extend their study</a></li>
+    <li><a href="https://www.youtube.com/watch?v=Qes7p5w8Tz8&ab_channel=MicrosoftAzure/">Azure AI Studio deep dive demo</a></li>
 </ul>
 
 Congratulations! You have completed this Module.<a href="https://github.com/sqlserverworkshops/OpenAI-DataPro/blob/main/sqldev/03%20-%20Coding%20Fundamentals%20with%20Azure%20OpenAI.md"> Click this link to continue to the next Module in the Workshop</a>.
