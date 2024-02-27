@@ -20,16 +20,16 @@ The following topics are covered in this module:
 
 <dl>
 
-  <dt><a href="url" target="_blank">2.1 - What is Azure AI Studio<dt>
-  <dt><a href="url" target="_blank">2.1 - Getting around in Azure AI Studio<dt>
-  <dt><a href="url" target="_blank">2.2 - Pricing, Billing, and Region Availability<dt>
-  <dt><a href="url" target="_blank">2.3 - How to get access<dt>
+  <dt><a href="#2.1" target="_blank">2.1 - What is Azure AI Studio<dt>
+  <dt><a href="url" target="_blank">2.2 - Getting around in Azure AI Studio<dt>
+  <dt><a href="url" target="_blank">2.3 - Pricing, Billing, and Region Availability<dt>
+  <dt><a href="url" target="_blank">2.4 - How to get access<dt>
 
 </dl>
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
-<h2><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">2.1 What is Azure AI Studio</h2>
+<h2><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">2.1 - What is Azure AI Studio</h2>
 
 <br>
 
@@ -62,7 +62,47 @@ TODO: Activity Description and tasks
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
-<h2><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">2.2 TODO: Topic Name</h2>
+<h2><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">2.2 - Getting around in Azure AI Studio</h2>
+
+TODO: Topic Description
+
+<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity: TODO: Activity Name</b></p>
+
+TODO: Activity Description and tasks
+
+<p><img style="margin: 0px 15px 15px 0px;" src="../graphics/checkmark.png"><b>Description</b></p>
+
+TODO: Enter activity description with checkbox
+
+<p><img style="margin: 0px 15px 15px 0px;" src="../graphics/checkmark.png"><b>Steps</b></p>
+
+TODO: Enter activity steps description with checkbox
+
+<p style="border-bottom: 1px solid lightgrey;"></p>
+
+<p style="border-bottom: 1px solid lightgrey;"></p>
+
+<h2><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">2.3 - Pricing, Billing, and Region Availability</h2>
+
+TODO: Topic Description
+
+<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity: TODO: Activity Name</b></p>
+
+TODO: Activity Description and tasks
+
+<p><img style="margin: 0px 15px 15px 0px;" src="../graphics/checkmark.png"><b>Description</b></p>
+
+TODO: Enter activity description with checkbox
+
+<p><img style="margin: 0px 15px 15px 0px;" src="../graphics/checkmark.png"><b>Steps</b></p>
+
+TODO: Enter activity steps description with checkbox
+
+<p style="border-bottom: 1px solid lightgrey;"></p>
+
+<p style="border-bottom: 1px solid lightgrey;"></p>
+
+<h2><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">2.4 - How to get access</h2>
 
 TODO: Topic Description
 
@@ -86,3 +126,4 @@ TODO: Enter activity steps description with checkbox
 </ul>
 
 Congratulations! You have completed this Module.<a href="https://github.com/sqlserverworkshops/OpenAI-DataPro/blob/main/sqldev/03%20-%20Coding%20Fundamentals%20with%20Azure%20OpenAI.md"> Click this link to continue to the next Module in the Workshop</a>.
+
