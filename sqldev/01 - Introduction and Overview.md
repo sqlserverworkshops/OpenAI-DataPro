@@ -1,4 +1,4 @@
-![](graphics/microsoftlogo.png)
+![image](https://github.com/sqlserverworkshops/OpenAI-DataPro/assets/517325/02649743-1bbb-43c5-91e1-2ee5c58f4352)![](graphics/microsoftlogo.png)
 
 # Workshop: Unlocking AI Potential for the Data Professional with Azure OpenAI
 
@@ -33,7 +33,12 @@ The following topics are covered in this module:
 
 <h2 id="1.1"><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">1.1 - Artificial Intelligence Concepts</h2>
 
-TODO: Topic Description
+Artificial Intelligence is a field of computer science that aims to create systems capable of performing tasks that normally require human intelligence, such as visual perception, speech recognition, decision-making, and translation between languages. In this workshop, we will focus on the following general areas of the AI landscape: 
+
+- Artificial Intelligence: Distinguished by input systems, any mathematical technique that mimics human behavior
+- Machine Learning: Using combinations of mathematical formulae to act over data, improving a prediction or classification from that data
+- Deep Learning: Using specialized layers of algorithms to train a model through the layers to create a prediction or classification
+- Generative Artificial Intelligence: A subset of AI technologies that are capable of creating new content or data, such as images, text, or music, often by learning patterns from existing data and then generating similar, but original, outputs.
 
 <br>
 
@@ -41,7 +46,7 @@ TODO: Topic Description
 
 <br>
 
-<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity: TODO: Activity Name</b></p>
+<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity: AI in Action</b></p>
 
 TODO: Activity Description and tasks
 
@@ -307,6 +312,11 @@ TODO: Enter activity steps description with checkbox
 <p><img style="margin: 0px 15px 15px 0px;" src="../graphics/owl.png"><b>For Further Study</b></p>
 <ul>
     <li><a href="url" target="_blank">TODO: Enter courses, books, posts, whatever the student needs to extend their study</a></li>
+
+  Some great cheat-sheets for the concepts here - https://becominghuman.ai/cheat-sheets-for-ai-neural-networks-machine-learning-deep-learning-big-data-science-pdf-f22dc900d2d7
+  Good overview - https://www.geeksforgeeks.org/artificial-intelligence-an-introduction
+
+  
 </ul>
 
 Congratulations! You have completed this Module.<a href="https://github.com/sqlserverworkshops/OpenAI-DataPro/blob/main/sqldev/02%20-%20Implementing%20AI%20Studio.md"> Click this link to continue to the next Module in the Workshop</a>.
