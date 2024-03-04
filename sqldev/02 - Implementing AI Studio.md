@@ -22,8 +22,8 @@ The following topics are covered in this module:
 
   <dt><a href="#2.1" target="_blank">2.1 - What is Azure AI Studio<dt>
   <dt><a href="url" target="_blank">2.2 - Getting around in Azure AI Studio<dt>
-  <dt><a href="url" target="_blank">2.3 - Pricing, Billing, and Region Availability<dt>
-  <dt><a href="url" target="_blank">2.4 - How to get access<dt>
+  <dt><a href="url" target="_blank">2.3 - Governance and Administration<dt>
+  <dt><a href="url" target="_blank">2.4 - Accesing the studio<dt>
 
 </dl>
 
@@ -82,7 +82,7 @@ TODO: Enter activity steps description with checkbox
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
-<h2><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">2.3 - Pricing, Billing, and Region Availability</h2>
+<h2><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">2.3 - Governance and Administration</h2>
 
 TODO: Topic Description
 
@@ -102,7 +102,7 @@ TODO: Enter activity steps description with checkbox
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
-<h2><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">2.4 - How to get access</h2>
+<h2><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">2.4 - Accesing the studio</h2>
 
 TODO: Topic Description
 
