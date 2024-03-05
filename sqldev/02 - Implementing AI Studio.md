@@ -22,8 +22,8 @@ The following topics are covered in this module:
 
   <dt><a href="#2.1" target="_blank">2.1 - What is Azure AI Studio<dt>
   <dt><a href="url" target="_blank">2.2 - Getting around in Azure AI Studio<dt>
-  <dt><a href="url" target="_blank">2.3 - Pricing, Billing, and Region Availability<dt>
-  <dt><a href="url" target="_blank">2.4 - How to get access<dt>
+  <dt><a href="url" target="_blank">2.3 - Governance and Administration<dt>
+  <dt><a href="url" target="_blank">2.4 - Accesing the studio<dt>
 
 </dl>
 
@@ -64,6 +64,72 @@ TODO: Activity Description and tasks
 
 <h2><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">2.2 - Getting around in Azure AI Studio</h2>
 
+<br> 
+
+With Azure AI Studio, you can evaluate large language model (LLM) responses and orchestrate prompt application components with prompt flow for better performance. The platform facilitates scalability for transforming proof of concepts into full-fledged production with ease. Continuous monitoring and refinement support long-term success.
+
+To navigate Azure AI Studio, you can use four tabs: Home, Explore, Build, and Manage1. Let’s take a quick look at what each tab offers.
+
+### Home
+The **Home** tab in Azure AI Studio serves as the starting point for your data science projects. Here, you'll find an organized overview of your ongoing work, including projects, datasets, and experiments. Take advantage of this central hub to efficiently manage your AI development endeavors.
+
+<img style="height: 400; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="https://learn.microsoft.com/en-us/azure/ai-studio/media/explore/ai-studio-tab-home.png">
+
+### Explore
+This is where you can find a model, service, or solution to start working on. The goal is that you can find, and try, all of Azure AI from here. Explore is stateless, so when you want to save settings and assets such as data you create a project and continue on the Build page.
+
+- Explore has a growing suite of tools, patterns, and guidance on how to build with AI so that enterprise can scale PoCs with a paved path to full production.
+- Guidance about how to select the right models and tools based on your use case.
+- Test AI solutions with your app code and data and receive guidance on standardized methods to evaluate the model, prompt, and overall application pipeline.
+- The try-out and model catalog cards provide an easy way to spin up a new project or add to an existing project.
+
+<br>
+<img style="height: 400; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="https://learn.microsoft.com/en-us/azure/ai-studio/media/explore/ai-studio-tab-explore.png">
+</br>
+
+### Build
+
+The Build experience within Azure AI Studio empowers AI developers and machine learning professionals to construct and tailor AI solutions and models. Developers have the flexibility to seamlessly switch between the visual studio environment and code-based development, ensuring efficient and effective AI development workflows.
+
+- Simplified development of large language model (LLM) solutions and copilots with end-to-end app templates and prompt samples for common use cases.
+- Orchestration framework to handle the complex mapping of functions and code between LLMs, tools, custom code, prompts, data, search indexes, and more.
+- Evaluate, deploy, and continuously monitor your AI application and app performance.
+
+<br>
+<img style="height: 400; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="https://learn.microsoft.com/en-us/azure/ai-studio/media/explore/ai-studio-tab-build.png">
+</br>
+
+### Manage
+
+Developers have the capability to manage settings related to connections and compute within Azure AI Studio. On the other hand, administrators primarily utilize this section to oversee access control, monitor usage, and handle billing aspects. It’s a division of responsibilities that ensures efficient management of the platform.
+
+- Centralized backend infrastructure to reduce complexity for developers.
+- A single Azure AI hub resource for enterprise configuration, unified data story, and built-in governance.
+
+<br>
+<img style="height: 400; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="https://learn.microsoft.com/en-us/azure/ai-studio/media/explore/ai-studio-tab-manage.png">
+</br>
+
+
+TODO: Topic Description  Add this demo as a TODO https://learn.microsoft.com/en-us/azure/ai-studio/what-is-ai-studio?tabs=manage#azure-ai-studio-enterprise-chat-solution-demo
+<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity: TODO: Activity Name</b></p>
+
+TODO: Activity Description and tasks
+
+<p><img style="margin: 0px 15px 15px 0px;" src="../graphics/checkmark.png"><b>Description</b></p>
+
+TODO: Enter activity description with checkbox
+
+<p><img style="margin: 0px 15px 15px 0px;" src="../graphics/checkmark.png"><b>Steps</b></p>
+
+TODO: Enter activity steps description with checkbox
+
+<p style="border-bottom: 1px solid lightgrey;"></p>
+
+<p style="border-bottom: 1px solid lightgrey;"></p>
+
+<h2><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">2.3 - Governance and Administration</h2>
+
 TODO: Topic Description
 
 <p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity: TODO: Activity Name</b></p>
@@ -82,27 +148,7 @@ TODO: Enter activity steps description with checkbox
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
-<h2><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">2.3 - Pricing, Billing, and Region Availability</h2>
-
-TODO: Topic Description
-
-<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity: TODO: Activity Name</b></p>
-
-TODO: Activity Description and tasks
-
-<p><img style="margin: 0px 15px 15px 0px;" src="../graphics/checkmark.png"><b>Description</b></p>
-
-TODO: Enter activity description with checkbox
-
-<p><img style="margin: 0px 15px 15px 0px;" src="../graphics/checkmark.png"><b>Steps</b></p>
-
-TODO: Enter activity steps description with checkbox
-
-<p style="border-bottom: 1px solid lightgrey;"></p>
-
-<p style="border-bottom: 1px solid lightgrey;"></p>
-
-<h2><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">2.4 - How to get access</h2>
+<h2><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">2.4 - Accesing the studio</h2>
 
 TODO: Topic Description
 
