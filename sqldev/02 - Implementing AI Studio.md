@@ -129,6 +129,24 @@ TODO: Enter activity steps description with checkbox
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
 <h2><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">2.3 - Governance and Administration</h2>
+<br></br>
+
+Azure AI Studio provides flexibility, cost transparency, and responsible AI practices while enabling you to build and deploy powerful AI solutions.
+
+### Pricing and Billing 
+
+**Preview Phase**:
+   - During the preview phase, there's **no extra charge** for using Azure AI Studio.
+   - When deploying solutions, **Azure AI services**, **Azure Machine Learning**, and other Azure resources used within Azure AI Studio will be billed at their existing rates.
+   - Keep in mind that pricing is subject to change when Azure AI Studio becomes generally available².
+
+**Cost Estimation and Planning**:
+   - **Azure Pricing Calculator**: Before adding any resources to Azure AI Studio, use the Azure pricing calculator to estimate costs. It helps you plan for Azure AI Studio costs.
+   - As you add Azure resources, review the estimated costs. Remember that costs for Azure AI services are only a portion of the monthly costs in your Azure bill. You're billed for all Azure services and resources used in your Azure subscription, including third-party services¹.
+
+**Billing Models**:
+   - **Pay-as-you-go**: With pay-as-you-go pricing, you're billed according to the Azure AI services offering you use, based on its billing information.
+   - **Commitment Tiers**: Commitment tier pricing allows you to commit to using several service features for a fixed fee, ensuring predictable total costs based on your workload needs¹.
 
 TODO: Topic Description
 
@@ -169,6 +187,7 @@ TODO: Enter activity steps description with checkbox
 <p><img style="margin: 0px 15px 15px 0px;" src="../graphics/owl.png"><b>For Further Study</b></p>
 <ul>
     <li><a href="https://www.youtube.com/watch?v=Qes7p5w8Tz8&ab_channel=MicrosoftAzure/">Azure AI Studio deep dive demo</a></li>
+    <li><a href="https://learn.microsoft.com/en-us/azure/ai-studio/faq/">Azure AI frequently asked questions - Azure AI Studio</a></li>
 </ul>
 
 Congratulations! You have completed this Module.<a href="https://github.com/sqlserverworkshops/OpenAI-DataPro/blob/main/sqldev/03%20-%20Coding%20Fundamentals%20with%20Azure%20OpenAI.md"> Click this link to continue to the next Module in the Workshop</a>.
