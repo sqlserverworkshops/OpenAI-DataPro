@@ -20,12 +20,12 @@ The following topics are covered in this module:
 
 <dl>
 
-  <dt><a href="#1.1" target="_blank">1.1 - Artificial Intelligence Concepts<dt>
-  <dt><a href="#1.2" target="_blank">1.2 - Predictive AI Methods<dt>
-  <dt><a href="url" target="_blank">1.3 - Machine Learning<dt>
-  <dt><a href="url" target="_blank">1.4 - Deep Learning<dt>
-  <dt><a href="url" target="_blank">1.5 - Natural Lamnguage Processing (NLP)<dt>
-  <dt><a href="url" target="_blank">1.6 - Generative AI (GPT)<dt>
+  <dt><a href="#1.1" target="_blank">1.1 - Artificial Intelligence Concepts</a><dt>
+  <dt><a href="#1.2" target="_blank">1.2 - Predictive AI Methods</a><dt>
+  <dt><a href="#1.3" target="_blank">1.3 - Machine Learning</a><dt>
+  <dt><a href="#1.4" target="_blank">1.4 - Deep Learning</a><dt>
+  <dt><a href="#1.5" target="_blank">1.5 - Natural Language Processing (NLP)</a><dt>
+  <dt><a href="#1.6" target="_blank">1.6 - Generative AI (GPT)</a><dt>
 
 </dl>
 
@@ -59,23 +59,23 @@ There are some interesting primary concepts and milestones in the field of AI th
 AI continues to evolve and has a promising future with the potential to bring significant changes to various fields such as healthcare, finance, transportation, and more. Remember, each of these concepts is a vast field in itself and this Module is just a brief overview.
 <br>
 
-<img style="height: 200; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="../graphics/Module01-01.png">
+<img src="../graphics/Module01-01.png">
 
 <br>
 
 <p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity: AI in Action</b></p>
 
-TODO: Activity Description and tasks
+In this section you will review a Jupyter Notebook that uses a Python Kernel to run code illustrating a few of the "GOAFI" or Good Old-Fashioned AI concepts. You can also download this Notebook to your local system and modify it for your learning journey.
 
 <p><img style="margin: 0px 15px 15px 0px;" src="../graphics/checkmark.png"><b>Steps</b></p>
 
-- [Open this Jupyter Notebook](https://github.com/sqlserverworkshops/OpenAI-DataPro/blob/main/notebooks/Notebook%20-%20Module%201.ipynb) and review the results from the instructions and code. You can download the Notebook and enter your own credentials and other variables to run it on your system once you have [completed the pre-requisites](https://github.com/sqlserverworkshops/OpenAI-DataPro/blob/main/sqldev/00%20-%20Pre-Requisites.md).
+- [Open this Jupyter Notebook](https://github.com/sqlserverworkshops/OpenAI-DataPro/blob/main/notebooks/Notebook%20-%20Module%201.ipynb) and look for the "Cell" description that matches this topic. You canb review the results from the instructions and code. You can also download the Notebook and enter your own credentials and other variables to run it on your system once you have [completed the pre-requisites](https://github.com/sqlserverworkshops/OpenAI-DataPro/blob/main/sqldev/00%20-%20Pre-Requisites.md).
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
-<h2 id="1.2"><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">1.2 Predictive AI Methods</h2>
+<h2 id="1.2"><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">1.2 - Predictive Analytics in AI Methods</h2>
 
-Predictive AI methods are techniques used in artificial intelligence to make predictions about future outcomes based on historical data. These methods are newer tht the earlier symbolic methods, and they are often still used in machine learning and data mining. Here are a few examples:
+Predictive AI methods are techniques used in artificial intelligence to make predictions about future outcomes based on historical data. These methods are newer than the earlier symbolic methods, and they are often still used in machine learning and data mining. Here are a few examples:
 
 1. **Regression Analysis:** This is a statistical method used to predict a dependent variable based on independent variables. For example, predicting house prices based on features like location, size, and age.
 
@@ -83,7 +83,7 @@ Predictive AI methods are techniques used in artificial intelligence to make pre
 
 3. **Classification:** This is used to predict categorical outcomes. For example, predicting whether an email is spam or not.
 
-**Bayesian Decision Theory:**
+<h3>Bayesian Decision Theory</h3>
 
 A particulaly inmportant concept in Predictive AI is Bayesian Decision Theory - a fundamental statistical approach to the problem of pattern classification. It provides a framework for making decisions under uncertainty. The theory combines the use of a likelihood function with a prior probability distribution to make decisions.
 
@@ -107,52 +107,13 @@ TODO: Activity Description and tasks
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
-<h2 id="1.1"><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">1.1 - Artificial Intelligence Concepts</h2>
+<h2 id="1.3"><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">1.3 - Machine Learning</h2>
 
 TODO: Topic Description
 
 <br>
 
-<img style="height: 400; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="../graphics/Module01-01.png">
-
-<br>
-
-<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity: TODO: Activity Name</b></p>
-
-TODO: Activity Description and tasks
-
-<p><img style="margin: 0px 15px 15px 0px;" src="../graphics/checkmark.png"><b>Steps</b></p>
-
-- [Open this Jupyter Notebook](https://github.com/sqlserverworkshops/OpenAI-DataPro/blob/main/notebooks/Notebook%20-%20Module%201.ipynb) and review the results from the instructions and code. You can download the Notebook and enter your own credentials and other variables to run it on your system once you have [completed the pre-requisites](https://github.com/sqlserverworkshops/OpenAI-DataPro/blob/main/sqldev/00%20-%20Pre-Requisites.md).
-
-<p style="border-bottom: 1px solid lightgrey;"></p>
-
-<h2><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">1.2 TODO: Topic Name</h2>
-
-TODO: Topic Description
-
-<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity: TODO: Activity Name</b></p>
-
-TODO: Activity Description and tasks
-
-<p><img style="margin: 0px 15px 15px 0px;" src="../graphics/checkmark.png"><b>Description</b></p>
-
-TODO: Enter activity description with checkbox
-
-<p><img style="margin: 0px 15px 15px 0px;" src="../graphics/checkmark.png"><b>Steps</b></p>
-
-TODO: Enter activity steps description with checkbox
-
-<p style="border-bottom: 1px solid lightgrey;"></p>
-<p style="border-bottom: 1px solid lightgrey;"></p>
-
-<h2 id="1.1"><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">1.1 - Artificial Intelligence Concepts</h2>
-
-TODO: Topic Description
-
-<br>
-
-<img style="height: 400; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="../graphics/Module01-01.png">
+<img src="../graphics/Module01-02.png">
 
 <br>
 
@@ -185,13 +146,13 @@ TODO: Enter activity steps description with checkbox
 <p style="border-bottom: 1px solid lightgrey;"></p>
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
-<h2 id="1.1"><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">1.1 - Artificial Intelligence Concepts</h2>
+<h2 id="1.4"><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">1.4 - Deep Learning</h2>
 
 TODO: Topic Description
 
 <br>
 
-<img style="height: 400; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="../graphics/Module01-01.png">
+<img src="../graphics/Module01-03.png">
 
 <br>
 
@@ -205,9 +166,15 @@ TODO: Activity Description and tasks
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
-<h2><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">1.2 TODO: Topic Name</h2>
+<h2 id="1.5"><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">1.5 - Natural Language Processing (NLP)</h2>
 
 TODO: Topic Description
+
+<br>
+
+<img src="../graphics/Module01-04.png">
+
+<br>
 
 <p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity: TODO: Activity Name</b></p>
 
@@ -222,54 +189,15 @@ TODO: Enter activity description with checkbox
 TODO: Enter activity steps description with checkbox
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
-<p style="border-bottom: 1px solid lightgrey;"></p>
 
-<h2 id="1.1"><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">1.1 - Artificial Intelligence Concepts</h2>
 
-TODO: Topic Description
-
-<br>
-
-<img style="height: 400; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="../graphics/Module01-01.png">
-
-<br>
-
-<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity: TODO: Activity Name</b></p>
-
-TODO: Activity Description and tasks
-
-<p><img style="margin: 0px 15px 15px 0px;" src="../graphics/checkmark.png"><b>Steps</b></p>
-
-- [Open this Jupyter Notebook](https://github.com/sqlserverworkshops/OpenAI-DataPro/blob/main/notebooks/Notebook%20-%20Module%201.ipynb) and review the results from the instructions and code. You can download the Notebook and enter your own credentials and other variables to run it on your system once you have [completed the pre-requisites](https://github.com/sqlserverworkshops/OpenAI-DataPro/blob/main/sqldev/00%20-%20Pre-Requisites.md).
-
-<p style="border-bottom: 1px solid lightgrey;"></p>
-
-<h2><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">1.2 TODO: Topic Name</h2>
-
-TODO: Topic Description
-
-<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity: TODO: Activity Name</b></p>
-
-TODO: Activity Description and tasks
-
-<p><img style="margin: 0px 15px 15px 0px;" src="../graphics/checkmark.png"><b>Description</b></p>
-
-TODO: Enter activity description with checkbox
-
-<p><img style="margin: 0px 15px 15px 0px;" src="../graphics/checkmark.png"><b>Steps</b></p>
-
-TODO: Enter activity steps description with checkbox
-
-<p style="border-bottom: 1px solid lightgrey;"></p>
-<p style="border-bottom: 1px solid lightgrey;"></p>
-
-<h2 id="1.1"><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">1.1 - Artificial Intelligence Concepts</h2>
+<h2 id="1.6"><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">1.6 - Generative AI</h2>
 
 TODO: Topic Description
 
 <br>
 
-<img style="height: 400; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="../graphics/Module01-01.png">
+<img src="../graphics/Module01-05.png">
 
 <br>
 
@@ -280,63 +208,6 @@ TODO: Activity Description and tasks
 <p><img style="margin: 0px 15px 15px 0px;" src="../graphics/checkmark.png"><b>Steps</b></p>
 
 - [Open this Jupyter Notebook](https://github.com/sqlserverworkshops/OpenAI-DataPro/blob/main/notebooks/Notebook%20-%20Module%201.ipynb) and review the results from the instructions and code. You can download the Notebook and enter your own credentials and other variables to run it on your system once you have [completed the pre-requisites](https://github.com/sqlserverworkshops/OpenAI-DataPro/blob/main/sqldev/00%20-%20Pre-Requisites.md).
-
-<p style="border-bottom: 1px solid lightgrey;"></p>
-
-<h2><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">1.2 TODO: Topic Name</h2>
-
-TODO: Topic Description
-
-<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity: TODO: Activity Name</b></p>
-
-TODO: Activity Description and tasks
-
-<p><img style="margin: 0px 15px 15px 0px;" src="../graphics/checkmark.png"><b>Description</b></p>
-
-TODO: Enter activity description with checkbox
-
-<p><img style="margin: 0px 15px 15px 0px;" src="../graphics/checkmark.png"><b>Steps</b></p>
-
-TODO: Enter activity steps description with checkbox
-
-<p style="border-bottom: 1px solid lightgrey;"></p>
-<p style="border-bottom: 1px solid lightgrey;"></p>
-
-<h2 id="1.1"><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">1.1 - Artificial Intelligence Concepts</h2>
-
-TODO: Topic Description
-
-<br>
-
-<img style="height: 400; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="../graphics/Module01-01.png">
-
-<br>
-
-<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity: TODO: Activity Name</b></p>
-
-TODO: Activity Description and tasks
-
-<p><img style="margin: 0px 15px 15px 0px;" src="../graphics/checkmark.png"><b>Steps</b></p>
-
-- [Open this Jupyter Notebook](https://github.com/sqlserverworkshops/OpenAI-DataPro/blob/main/notebooks/Notebook%20-%20Module%201.ipynb) and review the results from the instructions and code. You can download the Notebook and enter your own credentials and other variables to run it on your system once you have [completed the pre-requisites](https://github.com/sqlserverworkshops/OpenAI-DataPro/blob/main/sqldev/00%20-%20Pre-Requisites.md).
-
-<p style="border-bottom: 1px solid lightgrey;"></p>
-
-<h2><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">1.2 TODO: Topic Name</h2>
-
-TODO: Topic Description
-
-<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity: TODO: Activity Name</b></p>
-
-TODO: Activity Description and tasks
-
-<p><img style="margin: 0px 15px 15px 0px;" src="../graphics/checkmark.png"><b>Description</b></p>
-
-TODO: Enter activity description with checkbox
-
-<p><img style="margin: 0px 15px 15px 0px;" src="../graphics/checkmark.png"><b>Steps</b></p>
-
-TODO: Enter activity steps description with checkbox
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
@@ -346,7 +217,6 @@ TODO: Enter activity steps description with checkbox
 
   Some great cheat-sheets for the concepts here - https://becominghuman.ai/cheat-sheets-for-ai-neural-networks-machine-learning-deep-learning-big-data-science-pdf-f22dc900d2d7
   Good overview - https://www.geeksforgeeks.org/artificial-intelligence-an-introduction
-
   
 </ul>
 
