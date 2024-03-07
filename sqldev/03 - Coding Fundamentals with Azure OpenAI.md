@@ -18,6 +18,53 @@ In each module you'll get more references, which you should follow up on to lear
 
 The following topics are covered in this module:
 
+CONCEPT DO CONCEPT DO CONCEPT DO CONCEPT
+simple prompts
+
+
+Models           - Buck would have already covered this
+What is an LLM model?
+What is a chat model?
+
+Basic Chat - we will need to start our presentation at this point
+	Environment Setup - How do you hook into Azure Open AI
+	Basic Chat
+		Tokens - what is a token
+		Token Limits 
+		Prompt/Cost Optimization
+
+Prompts
+	What is a Prompt?
+	What is a completion?
+	
+	Small Prompt Engineering Techniques
+		Zero Shot Samples
+		One Shot Sample
+		Few Shot Samples
+		Generation
+		Classifications
+		Recommendations
+		Translation
+		Sentiment
+		Analysis
+		Intent
+		
+Calling models using SDKs
+	Python/C# OpenAI
+Calling models using Orchestrators
+	Langchain
+	Semantic Kernel
+	
+RAG
+
+Vector Databases
+	Embeddings
+	AI Search
+	
+Taking this to the next level
+	Assistants
+	Adversarial Prompting
+
 <dl>
 
   <dt><a href="url" target="_blank">3.1 - Workstreams<dt>
@@ -88,6 +135,17 @@ Landing Zone
 * Governance (Policies, Monitoring, etc.)
 * IaC/DevOps
 * Private Networking
+
+
+Concept do this concept do this
+one notebook per module
+
+module 1
+section 1.1
+
+concept and then do
+concept and then do
+
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
