@@ -20,9 +20,9 @@ The following topics are covered in this module:
 
 <dl>
 
-  <dt><a href="url" target="_blank">5.1 - Security for Generative AI (GenAI) Applications<dt>
-  <dt><a href="url" target="_blank">5.2 - Responsible AI<dt>
-  <dt><a href="url" target="_blank">5.3 - TODO: Enter Topic Name<dt>
+  <dt><a href="#5.1" target="_blank">5.1 - Security for Generative AI (GenAI) Applications</a><dt>
+  <dt><a href="#5.2" target="_blank">5.2 - Responsible AI</a><dt>
+  <dt><a href="#5.3" target="_blank">5.3 - A Process for Implementing AI</a><dt>
 
 </dl>
 
@@ -30,15 +30,19 @@ The following topics are covered in this module:
 
 <h2><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">5.1 Security for Generative AI (GenAI) Applications</h2>
 
-TODO: Topic Description
+It's important to recall that the foundation of AI security is proper IT platform security. Regardless of the actions you take for your environment, every access point is important. For Microsoft OpenAI, you should start with a sound understanding of the general security setup for Microsoft Azure: 
 
 <br>
-# Guidance: 
+<img src="../graphics/Module05-01.png">
+<br>
 
-## Introduction
-As LLMs become more easily available and integrated into our work and personal lives, the promise of the technology is tempered by the potential for it to be misused. And the potential for misuse becomes even more significant when you realize LLMs can be combined with other powerful software components and agents to orchestrate a pipeline of actions. OR combined with proprietary and personal data to introduce new avenues for data disclosure and leakage.   
+As LLMs become more easily available and integrated into our work and personal lives, the promise of the technology is tempered by the potential for it to be misused. And the potential for misuse becomes even more significant when you realize LLMs can be combined with other powerful software components and agents to orchestrate a pipeline of actions. OR combined with proprietary and personal data to introduce new avenues for data disclosure and leakage. Following the Microsoft Azure security, these additional controls are shown in this architecture diagram:  
 
-The intention for this page is not to reiterate security guidance that is generally available for more traditional or cloud software applications but to focus on guidance specific to *GenAI* applications and the unique characteristics and challenges of LLMs.  
+<br>
+<img src="../graphics/Module05-02.png">
+<br>
+
+The intention for this Module is not to reiterate security guidance that is generally available for more traditional or cloud software applications but to focus on guidance specific to *GenAI* applications and the unique characteristics and challenges of LLMs.  
 
 ## Threats & Risks
 The security threats and risks with traditional software applications are familiar and understood. *GenAI* and LLMs introduce new and unique security risks including:  
@@ -97,14 +101,10 @@ As a mitigation strategy for adversarial prompt attacks, consider advanced [prom
 
 See [Exploring Adversarial Prompting and Mitigations in AI-Infused Applications](https://www.linkedin.com/pulse/exploring-adversarial-prompting-mitigations-alex-morales-3sqne/) for more specifics on these types of attacks and defense tactics. 
   
-## Resources & References
-* [OWASP Top 10 for LLM applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/) and the [downloadable whitepaper](https://www.llmtop10.com/assets/downloads/OWASP-Top-10-for-LLM-Applications-v1_1.pdf)
-* [OWASP LLM AI Security & Governance Checklist](https://owasp.org/www-project-top-10-for-large-language-model-applications/llm-top-10-governance-doc/LLM_AI_Security_and_Governance_Checklist.pdf)
-* [Security Best Practices for GenAI Applications in Azure](https://techcommunity.microsoft.com/t5/azure-architecture-blog/security-best-practices-for-genai-applications-openai-in-azure/ba-p/4027885)
-* [Steering at the Frontier: Extending the Power of Prompting](https://www.microsoft.com/en-us/research/blog/steering-at-the-frontier-extending-the-power-of-prompting/)
-* [Planning red teaming for large language models (LLMs) and their applications](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/red-teaming)
+You can see more about privacy and compliance in the Microsoft Azure OpenAI service here: 
 
-
+<br>
+<img src="../graphics/Module05-03.png">
 <br>
 
 <p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity: TODO: Activity Name</b></p>
@@ -211,5 +211,13 @@ TODO: Enter activity steps description with checkbox
 <ul>
     <li><a href="url" target="_blank">TODO: Enter courses, books, posts, whatever the student needs to extend their study</a></li>
 </ul>
+
+    ## Resources & References
+* [OWASP Top 10 for LLM applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/) and the [downloadable whitepaper](https://www.llmtop10.com/assets/downloads/OWASP-Top-10-for-LLM-Applications-v1_1.pdf)
+* [OWASP LLM AI Security & Governance Checklist](https://owasp.org/www-project-top-10-for-large-language-model-applications/llm-top-10-governance-doc/LLM_AI_Security_and_Governance_Checklist.pdf)
+* [Security Best Practices for GenAI Applications in Azure](https://techcommunity.microsoft.com/t5/azure-architecture-blog/security-best-practices-for-genai-applications-openai-in-azure/ba-p/4027885)
+* [Steering at the Frontier: Extending the Power of Prompting](https://www.microsoft.com/en-us/research/blog/steering-at-the-frontier-extending-the-power-of-prompting/)
+* [Planning red teaming for large language models (LLMs) and their applications](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/red-teaming)
+
 
 Congratulations! You have completed this Workshop.You can now extrapolate what you have learned to your development environments.</a>.
