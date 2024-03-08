@@ -20,9 +20,9 @@ The following topics are covered in this module:
 
 <dl>
 
-  <dt><a href="url" target="_blank">4.1 - TODO: Enter Topic Name<dt>
-  <dt><a href="url" target="_blank">4.2 - TODO: Enter Topic Name<dt>
-  <dt><a href="url" target="_blank">4.3 - TODO: Enter Topic Name<dt>
+  <dt><a href="url" target="_blank">4.1 - OpenAI with Microsoft SQL Server</a><dt>
+  <dt><a href="url" target="_blank">4.2 - OpenAI with Azure SQL DB</a><dt>
+  <dt><a href="url" target="_blank">4.3 - Open AI with Microsoft Fabric</a><dt>
 
 </dl>
 
