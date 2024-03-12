@@ -110,19 +110,19 @@ Developers have the capability to manage settings related to connections and com
 <img style="height: 400; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="https://learn.microsoft.com/en-us/azure/ai-studio/media/explore/ai-studio-tab-manage.png">
 </br>
 
+<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity: Review Azure AI Studio deep dive demo video</b></p>
 
-TODO: Topic Description  Add this demo as a TODO https://learn.microsoft.com/en-us/azure/ai-studio/what-is-ai-studio?tabs=manage#azure-ai-studio-enterprise-chat-solution-demo
-<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity: TODO: Activity Name</b></p>
+Review Azure AI Studio deep dive demo video
+ <p><a href="https://learn.microsoft.com/en-us/azure/ai-studio/what-is-ai-studio?tabs=manage#azure-ai-studio-enterprise-chat-solution-demo"><img src="https://img.youtube.com/vi/Qes7p5w8Tz8/1.jpg" height = 200></a> 
 
-TODO: Activity Description and tasks
 
 <p><img style="margin: 0px 15px 15px 0px;" src="../graphics/checkmark.png"><b>Description</b></p>
 
-TODO: Enter activity description with checkbox
+Azure AI Studio ushers in a new era of generative AI development. It empowers developers to explore, build, test, and deploy their AI innovations at scale – moving faster from idea to impact. Whether creating custom copilots, enhancing search, improving call centers, developing bots and bespoke applications, or a combination of these, Azure AI Studio provides the necessary support. The unified platform is tailor-made for AI developers to integrate pre-built services and models, prompt orchestration and evaluation, content safety, and responsible AI tools for privacy, security, and compliance, helping developers navigate the complexities of generative AI with confidence.
 
 <p><img style="margin: 0px 15px 15px 0px;" src="../graphics/checkmark.png"><b>Steps</b></p>
 
-TODO: Enter activity steps description with checkbox
+Time permitting review end to end demo of Azure AI Studio deep dive. 
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
@@ -167,6 +167,15 @@ TODO: Enter activity steps description with checkbox
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
 <h2><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">2.4 - Accesing the studio</h2>
+<br></br>
+
+### Limited access to Azure OpenAI Service
+As part of Microsoft's commitment to responsible AI, we are designing and releasing Azure OpenAI Service with the intention of protecting the rights of individuals and society and fostering transparent human-computer interaction. For this reason, we currently limit the access and use of Azure OpenAI, including limiting access to the ability to modify content filters and/or abuse monitoring.
+
+Azure OpenAI requires registration and is currently only available to approved enterprise customers and partners.
+
+### Registering
+You can explore Azure AI Studio without signing in, but for full functionality an Azure account is needed and apply for access to Azure OpenAI Service by completing the form at https://aka.ms/oai/access. You receive a follow-up email when your subscription has been added.
 
 TODO: Topic Description
 
@@ -176,11 +185,12 @@ TODO: Activity Description and tasks
 
 <p><img style="margin: 0px 15px 15px 0px;" src="../graphics/checkmark.png"><b>Description</b></p>
 
-TODO: Enter activity description with checkbox
+For this exercise you will chose the link in the steps below. Follow the instructions 
 
 <p><img style="margin: 0px 15px 15px 0px;" src="../graphics/checkmark.png"><b>Steps</b></p>
 
-TODO: Enter activity steps description with checkbox
+If you have an Azure subscription with access to the Azure OpenAI service, you can explore Azure AI Studio for yourself.
+https://learn.microsoft.com/en-us/training/modules/introduction-to-azure-ai-studio/5-exercise-explore-ai-studio
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
