@@ -63,7 +63,6 @@ There are some interesting primary concepts and milestones in the field of AI th
 
 AI continues to evolve and has a promising future with the potential to bring significant changes to various fields such as healthcare, finance, transportation, and more. Remember, each of these concepts is a vast field in itself and this Module is just a brief overview.
 
-
 <p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity: AI in Action</b></p>
 
 In this section you will review a Jupyter Notebook that uses a Python Kernel to run code illustrating a few of the "GOAFI" or Good Old-Fashioned AI concepts. You can also download this Notebook to your local system and modify it for your learning journey.
@@ -117,7 +116,6 @@ At its core, machine learning involves **algorithms** that analyze data, identif
 <br>
 <img src="../graphics/Module01-02.png">
 <br>
-
 
 Here's a simplified breakdown of the process how those algorithm "families:" or groups are used:
 
@@ -188,18 +186,16 @@ Deep learning distinguishes itself from classical machine learning in two key wa
 - **Automated Feature Extraction**: Deep learning algorithms automatically extract relevant features, reducing dependency on human experts. This automation enhances precision and efficiency.
 
 <br>
-
 <img src="../graphics/Module01-03.png">
-
 <br>
 
-<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity: TODO: Activity Name</b></p>
+<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity: Deep Learning</b></p>
 
-TODO: Activity Description and tasks
+In this section you will review a Jupyter Notebook that uses a Python Kernel to run code illustrating Deep Learning layering concepts. You can also download this Notebook to your local system and modify it for your learning journey.
 
 <p><img style="margin: 0px 15px 15px 0px;" src="../graphics/checkmark.png"><b>Steps</b></p>
 
-- [Open this Jupyter Notebook](https://github.com/sqlserverworkshops/OpenAI-DataPro/blob/main/notebooks/Notebook%20-%20Module%201.ipynb) and review the results from the instructions and code. You can download the Notebook and enter your own credentials and other variables to run it on your system once you have [completed the pre-requisites](https://github.com/sqlserverworkshops/OpenAI-DataPro/blob/main/sqldev/00%20-%20Pre-Requisites.md).
+- [Open this Jupyter Notebook](https://github.com/sqlserverworkshops/OpenAI-DataPro/blob/main/notebooks/Notebook%20-%20Module%201.ipynb) and look for the "Cell" description **Deep Learning: Training a Model with Layers**. You can review the results from the instructions and code. You can also download the Notebook and enter your own credentials and other variables to run it on your system once you have [completed the pre-requisites](https://github.com/sqlserverworkshops/OpenAI-DataPro/blob/main/sqldev/00%20-%20Pre-Requisites.md).
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
@@ -239,20 +235,15 @@ Natural Language Processing (NLP) is an intersection of **computational linguist
 <img src="../graphics/Module01-04.png">
 <br>
 
-<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity: TODO: Activity Name</b></p>
+<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity: Natural Language Processing</b></p>
 
-TODO: Activity Description and tasks
-
-<p><img style="margin: 0px 15px 15px 0px;" src="../graphics/checkmark.png"><b>Description</b></p>
-
-TODO: Enter activity description with checkbox
+In this section you will review a Jupyter Notebook that uses a Python Kernel to run code illustrating two NLP concepts: Tokenizing and Embedding, and understanding Vectors. You can also download this Notebook to your local system and modify it for your learning journey.
 
 <p><img style="margin: 0px 15px 15px 0px;" src="../graphics/checkmark.png"><b>Steps</b></p>
 
-TODO: Enter activity steps description with checkbox
+- [Open this Jupyter Notebook](https://github.com/sqlserverworkshops/OpenAI-DataPro/blob/main/notebooks/Notebook%20-%20Module%201.ipynb) and look for the "Cell" descriptions called **Natural Language Processing - Tokenizing a Sentence and Creating Vectors** and **The Importance of Vector Search in AI**. You can review the results from the instructions and code. You can also download the Notebook and enter your own credentials and other variables to run it on your system once you have [completed the pre-requisites](https://github.com/sqlserverworkshops/OpenAI-DataPro/blob/main/sqldev/00%20-%20Pre-Requisites.md).
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
-
 
 <h2 id="1.6"><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">1.6 - Generative AI</h2>
 
@@ -293,23 +284,21 @@ Generative AI opens doors to creativity, personalization, and automation. Howeve
 <img src="../graphics/Module01-05.png">
 <br>
 
-<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity: TODO: Activity Name</b></p>
+<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity: Natural Language Processing</b></p>
 
-TODO: Activity Description and tasks
+In this section you will review a Jupyter Notebook that uses a Python Kernel to run code illustrating a couple of Generative AI concepts. A complete codeset is not possible on a smaller system, but you can also download this Notebook to your local system and modify it for your learning journey.
 
 <p><img style="margin: 0px 15px 15px 0px;" src="../graphics/checkmark.png"><b>Steps</b></p>
 
-- [Open this Jupyter Notebook](https://github.com/sqlserverworkshops/OpenAI-DataPro/blob/main/notebooks/Notebook%20-%20Module%201.ipynb) and review the results from the instructions and code. You can download the Notebook and enter your own credentials and other variables to run it on your system once you have [completed the pre-requisites](https://github.com/sqlserverworkshops/OpenAI-DataPro/blob/main/sqldev/00%20-%20Pre-Requisites.md).
+- [Open this Jupyter Notebook](https://github.com/sqlserverworkshops/OpenAI-DataPro/blob/main/notebooks/Notebook%20-%20Module%201.ipynb) and look for the "Cell" description called **Large Language Models: A Few Basic Concepts**. You can review the results from the instructions and code. You can also download the Notebook and enter your own credentials and other variables to run it on your system once you have [completed the pre-requisites](https://github.com/sqlserverworkshops/OpenAI-DataPro/blob/main/sqldev/00%20-%20Pre-Requisites.md).
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
 <p><img style="margin: 0px 15px 15px 0px;" src="../graphics/owl.png"><b>For Further Study</b></p>
 <ul>
-    <li><a href="url" target="_blank">TODO: Enter courses, books, posts, whatever the student needs to extend their study</a></li>
-
-  Some great cheat-sheets for the concepts here - https://becominghuman.ai/cheat-sheets-for-ai-neural-networks-machine-learning-deep-learning-big-data-science-pdf-f22dc900d2d7
-  Good overview - https://www.geeksforgeeks.org/artificial-intelligence-an-introduction
-  
+    <li><a href="https://becominghuman.ai/" target="_blank">There are a fwe "Cheat Sheets" for AI concepts here</a></li>
+    <li><a href="https://www.geeksforgeeks.org/artificial-intelligence-an-introduction" target="_blank">There is a good overview of Artificial Intelligence Concepts here</a></li>
+    <li><a href="https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/" target="_blank">One of the best explanations of how ChatGPT works is here</a></li>
 </ul>
 
 Congratulations! You have completed this Module.<a href="https://github.com/sqlserverworkshops/OpenAI-DataPro/blob/main/sqldev/02%20-%20Implementing%20AI%20Studio.md"> Click this link to continue to the next Module in the Workshop</a>.
