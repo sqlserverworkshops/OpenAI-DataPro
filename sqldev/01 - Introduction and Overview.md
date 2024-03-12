@@ -296,7 +296,7 @@ In this section you will review a Jupyter Notebook that uses a Python Kernel to 
 
 <p><img style="margin: 0px 15px 15px 0px;" src="../graphics/owl.png"><b>For Further Study</b></p>
 <ul>
-    <li><a href="https://becominghuman.ai/" target="_blank">There are a fwe "Cheat Sheets" for AI concepts here</a></li>
+    <li><a href="https://becominghuman.ai/" target="_blank">There are a few "Cheat Sheets" for AI concepts here</a></li>
     <li><a href="https://www.geeksforgeeks.org/artificial-intelligence-an-introduction" target="_blank">There is a good overview of Artificial Intelligence Concepts here</a></li>
     <li><a href="https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/" target="_blank">One of the best explanations of how ChatGPT works is here</a></li>
 </ul>
