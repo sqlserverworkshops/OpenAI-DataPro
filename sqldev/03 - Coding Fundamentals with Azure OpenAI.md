@@ -14,22 +14,28 @@ In each module you'll get more references, which you should follow up on to lear
 
 (<a href="https://github.com/sqlserverworkshops/OpenAI-DataPro/blob/main/sqldev/00%20-%20Pre-Requisites.md" target="_blank">Make sure you check out the <b>Pre-Requisites</b> page before you start</a>. You'll need all of the items loaded there before you can proceed with the workshop.)
 
-<p align="center">
-  <img src="../graphics/buildingblocks.png" alt="AOIA Building Blocks">
-</p>
-
 
 <h2><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/education1.png">Topics In This Module</h2>
 
 The following topics are covered in this module:
 
-CONCEPT DO CONCEPT DO CONCEPT DO CONCEPT
-simple prompts
 
+<p align="center">
+  <img src="../graphics/buildingblocks.png" alt="AOIA Building Blocks">
+</p>
 
-Models           - Buck would have already covered this
-What is an LLM model?
-What is a chat model?
+<dl>
+
+  <dt><a href="#3.1" target="_blank">3.1 - Environment Setup</a><dt>
+  <dt><a href="#3.2" target="_blank">3.2 - Basic Chat</a><dt>
+  <dt><a href="#3.3" target="_blank">3.3 - Tokens</a><dt>
+  <dt><a href="#3.4" target="_blank">3.4 - Prompts & Completions</a><dt>
+  <dt><a href="#3.5" target="_blank">3.5 - Techniques</a><dt>
+  <dt><a href="#3.6" target="_blank">3.6 - Embeddings & Vector DBs</a><dt>
+  <dt><a href="#3.7" target="_blank">3.7 - REST, SDKs & Orchestration</a><dt>
+
+</dl>
+
 
 Basic Chat - we will need to start our presentation at this point
 	Environment Setup - How do you hook into Azure Open AI
