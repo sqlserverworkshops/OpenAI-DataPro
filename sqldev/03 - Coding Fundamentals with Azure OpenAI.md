@@ -19,11 +19,6 @@ In each module you'll get more references, which you should follow up on to lear
 
 The following topics are covered in this module:
 
-
-<p align="center">
-  <img src="../graphics/buildingblocks.png" alt="AOIA Building Blocks">
-</p>
-
 <dl>
 
   <dt><a href="#3.1" target="_blank">3.1 - Environment Setup</a><dt>
@@ -37,140 +32,31 @@ The following topics are covered in this module:
 </dl>
 
 
-Basic Chat - we will need to start our presentation at this point
-	Environment Setup - How do you hook into Azure Open AI
-	Basic Chat
-		Tokens - what is a token
-		Token Limits 
-		Prompt/Cost Optimization
 
-Prompts
-	What is a Prompt?
-	What is a completion?
-	
-	Small Prompt Engineering Techniques
-		Zero Shot Samples
-		One Shot Sample
-		Few Shot Samples
-		Generation
-		Classifications
-		Recommendations
-		Translation
-		Sentiment
-		Analysis
-		Intent
-		
-Calling models using SDKs
-	Python/C# OpenAI
-Calling models using Orchestrators
-	Langchain
-	Semantic Kernel
-	
-RAG
-
-Vector Databases
-	Embeddings
-	AI Search
-	
-Taking this to the next level
-	Assistants
-	Adversarial Prompting
-
-<dl>
-
-  <dt><a href="url" target="_blank">3.1 - Workstreams<dt>
-  <dt><a href="url" target="_blank">3.2 - Core Concepts<dt>
-  <dt><a href="url" target="_blank">3.3 - Model Choices<dt>
-  <dt><a href="url" target="_blank">3.4 - Calling LLM using REST API<dt>
-  <dt><a href="url" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chat vs Completions<dt>
-  <dt><a href="url" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fire and Respond<dt>
-  <dt><a href="url" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Generation<dt>
-  <dt><a href="url" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Classification<dt>
-  <dt><a href="url" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Summarization<dt>
-  <dt><a href="url" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Translation<dt>
-  <dt><a href="url" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Recommendation<dt>
-  <dt><a href="url" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Scoring<dt>
-  <dt><a href="url" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sentiment<dt>
-  <dt><a href="url" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Intent<dt>
-  <dt><a href="url" target="_blank">3.5 - Zero Shot, One Shot, Few Shot<dt>
-  <dt><a href="url" target="_blank">3.6 - Chat with your own data (RAG Pattern)<dt>
-  <dt><a href="url" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ingestion<dt>
-  <dt><a href="url" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Grounding<dt>
-  <dt><a href="url" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Completion<dt>
-  <dt><a href="url" target="_blank">3.7 - Multi Modal Vision<dt>
-
-</dl>
-
-Building blocks:
-
-Models
-  * What is an LLM model?
-  * What is a chat model?
-
-Tokens
-  * What is a token?
-  * Token Limits in Models
-  * Token in Throttling
-  * Prompt and Completions
-  * What is a Prompt?
-  * What is a Completion?
-  * Prompt Engineering
- 
-Prompt/Cost Optimization
- 
-* Adversarial Prompting
- 
-* Calling models via REST
- 
-* Calling models using SDKs
-* Python/C# OpenAI
-* Calling models using Orchestrators
-* Langchain
-* Semantic Kernel
-* Embeddings
-* Vector Databases
-* AI Search
-* Assistants
- 
-Using the building blocks:
-* LLM use cases
-* RAG 
-* RAG Validation
-* Summarization
-* Semantic Cache
-* Enterprise Integillent Apps
-* WAF
-
-Landing Zone
-* Compute Selection
-* Governance (Policies, Monitoring, etc.)
-* IaC/DevOps
-* Private Networking
-
-
-Concept do this concept do this
-one notebook per module
-
-module 1
-section 1.1
-
-concept and then do
-concept and then do
-
+<p align="center">
+  <img src="../graphics/buildingblocks.png" alt="AOIA Building Blocks">
+</p>
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
-<h2><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">3.1 TODO: Topic Name</h2>
+<h2><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">3.1 TODO: Environment Setup</h2>
 
-TODO: Topic Description
+TODO: How do you hook into Azure Open AI
+
+
+<p align="center">
+  <img src="../graphics/environmentsetup.png">
+</p>
+
+To programmatically interact with OpenAI in Azure, several necessary services need to be deployed within the Azure environment. First, the deployment of Azure OpenAI and Azure Cognitive Search services is essential to run samples effectively. Azure OpenAI provides access to advanced natural language processing capabilities, enabling developers to integrate state-of-the-art AI models into their applications seamlessly. Meanwhile, Azure Cognitive Search allows for the indexing and querying of structured and unstructured data, facilitating efficient search and retrieval of information.
+
+Additionally, it's crucial to store all necessary service endpoints, service API keys, and Azure OpenAI deployment names in a centralized configuration file, such as '../Module03/.env'. This file serves as a centralized repository of authentication credentials and connection details, ensuring consistency and security across all notebooks within the repository. By centralizing these configurations, developers can easily connect and authenticate against the deployed Azure services from any notebook within the repository, streamlining the development and deployment process.
 
 <br>
 
-<img style="height: 400; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="https://docs.microsoft.com/en-us/sql/big-data-cluster/media/concept-security/cluster_endpoints.png">
+<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity: Azure OpenAI Enviornment Setup Action</b></p>
 
-<br>
-
-<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity: TODO: Activity Name</b></p>
+In this section you will review a Jupyter Notebook that uses a Python Kernel to run code illustrating the necessary Azure Services you need to deploy to start interacting and working with a LLM/GPT Model in Azure Open AI. You can also download this Notebook to your local system and modify it for your learning journey.
 
 TODO: Activity Description and tasks
 
@@ -178,13 +64,18 @@ TODO: Activity Description and tasks
 
 - [Open this Jupyter Notebook](https://github.com/sqlserverworkshops/OpenAI-DataPro/blob/main/notebooks/Notebook%20-%20Module%203.ipynb) and review the results from the instructions and code. You can download the Notebook and enter your own credentials and other variables to run it on your system once you have [completed the pre-requisites](https://github.com/sqlserverworkshops/OpenAI-DataPro/blob/main/sqldev/00%20-%20Pre-Requisites.md).
 
-<p style="border-bottom: 1px solid lightgrey;"></p>
 
-<h2><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">3.2 TODO: Topic Name</h2>
+<p style="border-bottom: 1px solid lightgrey;"></p><br>
+
+<!-- Basic Chat -->
+<h2><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">3.2 TODO: Basic Chat</h2>
 
 TODO: Topic Description
 
-<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity: TODO: Activity Name</b></p>
+https://platform.openai.com/docs/quickstart?context=python
+
+
+<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity: TODO: Run the Basic Chat Notebook</b></p>
 
 TODO: Activity Description and tasks
 
@@ -196,7 +87,220 @@ TODO: Enter activity description with checkbox
 
 TODO: Enter activity steps description with checkbox
 
-<p style="border-bottom: 1px solid lightgrey;"></p>
+<p style="border-bottom: 1px solid lightgrey;"></p><br>
+
+<!-- Tokens -->
+<h2><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">3.3 TODO: Tokens</h2>
+
+<br>
+
+  * What is a token?
+  * Token Limits in Models
+  * Token in Throttling
+  * Prompt and Completions
+  * What is a Prompt?
+  * What is a Completion?
+  * Prompt Engineering
+
+<br>
+
+Text generation and embeddings models process text in chunks called tokens. Tokens represent commonly occurring sequences of characters. For example, the string " tokenization" is decomposed as " token" and "ization", while a short and common word like " the" is represented as a single token. Note that in a sentence, the first token of each word typically starts with a space character. Check out our tokenizer tool to test specific strings and see how they are translated into tokens. As a rough rule of thumb, 1 token is approximately 4 characters or 0.75 words for English text.
+
+One limitation to keep in mind is that for a text generation model the prompt and the generated output combined must be no more than the model's maximum context length. For embeddings models (which do not output tokens), the input must be shorter than the model's maximum context length. The maximum context lengths for each text generation and embeddings model can be found in the model index.
+
+https://platform.openai.com/docs/models/overview
+
+OpenAI's large language models (sometimes referred to as GPT's) process text using tokens, which are common sequences of characters found in a set of text. The models learn to understand the statistical relationships between these tokens, and excel at producing the next token in a sequence of tokens.
+
+https://platform.openai.com/tokenizer
+
+
+<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity: TODO: Run the Token Notebook Notebook</b></p>
+
+TODO: Activity Description and tasks
+
+<p><img style="margin: 0px 15px 15px 0px;" src="../graphics/checkmark.png"><b>Description</b></p>
+
+TODO: Enter activity description with checkbox
+
+<p><img style="margin: 0px 15px 15px 0px;" src="../graphics/checkmark.png"><b>Steps</b></p>
+
+TODO: Enter activity steps description with checkbox
+
+<p style="border-bottom: 1px solid lightgrey;"></p><br>
+
+<!-- Prompts & Completions -->
+<h2><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">3.4 TODO: Prompts & Completions</h2>
+
+TODO: Topic Description
+
+<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity: TODO: Run the Prompts & Completions Notebook</b></p>
+
+TODO: Activity Description and tasks
+
+<p><img style="margin: 0px 15px 15px 0px;" src="../graphics/checkmark.png"><b>Description</b></p>
+
+TODO: Enter activity description with checkbox
+
+<p><img style="margin: 0px 15px 15px 0px;" src="../graphics/checkmark.png"><b>Steps</b></p>
+
+TODO: Enter activity steps description with checkbox
+
+<p style="border-bottom: 1px solid lightgrey;"></p><br>
+
+<!-- Techniques -->
+<h2><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">3.5 TODO: Techniques</h2>
+
+TODO: Topic Description
+
+<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity: TODO: Run the Techniques Notebook</b></p>
+
+TODO: Activity Description and tasks
+
+<p><img style="margin: 0px 15px 15px 0px;" src="../graphics/checkmark.png"><b>Description</b></p>
+
+TODO: Enter activity description with checkbox
+
+<p><img style="margin: 0px 15px 15px 0px;" src="../graphics/checkmark.png"><b>Steps</b></p>
+
+TODO: Enter activity steps description with checkbox
+
+<p style="border-bottom: 1px solid lightgrey;"></p><br>
+
+<!-- Embeddings & Vector DBs -->
+<h2><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">3.6 TODO: Embeddings & Vector DBs</h2>
+
+What are embeddings?
+OpenAI’s text embeddings measure the relatedness of text strings. Embeddings are commonly used for:
+
+Search (where results are ranked by relevance to a query string)
+Clustering (where text strings are grouped by similarity)
+Recommendations (where items with related text strings are recommended)
+Anomaly detection (where outliers with little relatedness are identified)
+Diversity measurement (where similarity distributions are analyzed)
+Classification (where text strings are classified by their most similar label)
+An embedding is a vector (list) of floating point numbers. The distance between two vectors measures their relatedness. Small distances suggest high relatedness and large distances suggest low relatedness.
+
+https://platform.openai.com/docs/guides/embeddings
+
+<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity: TODO: Run the Embeddings & Vector DBs Notebook</b></p>
+
+TODO: Activity Description and tasks
+
+<p><img style="margin: 0px 15px 15px 0px;" src="../graphics/checkmark.png"><b>Description</b></p>
+
+TODO: Enter activity description with checkbox
+
+<p><img style="margin: 0px 15px 15px 0px;" src="../graphics/checkmark.png"><b>Steps</b></p>
+
+TODO: Enter activity steps description with checkbox
+
+<p style="border-bottom: 1px solid lightgrey;"></p><br>
+
+<!-- REST, SDKs & Orchestration -->
+<h2><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">3.7 TODO: REST, SDKs & Orchestration</h2>
+
+<br>
+
+## Calling LLM using REST API
+
+Learn how to interact with OpenAI's Large Language Models (LLMs) via REST API. This guide will use the VS Code extension to demonstrate API calls.
+
+## Overview
+
+Azure OpenAI, part of Azure Cognitive Services, offers AI models and tools for building intelligent applications. Its REST API endpoints for LLMs enable integration into various applications for tasks like natural language understanding and speech-to-text.
+
+![Overview](../graphics/01_Overview.png) *Azure OpenAI REST API interaction overview.*
+
+The REST API provides access to cutting-edge features, often available before SDK implementations, allowing developers to leverage the latest LLM capabilities in a flexible manner.
+
+## Prerequisites
+
+Ensure you have the following before starting:
+
+- **VS Code**: The editor where we'll write and execute our API calls.
+- **Azure OpenAI Credentials**: Obtain your key and endpoint from the [Azure portal](https://portal.azure.com/).
+
+Store sensitive information like API keys and endpoints in an `.env` file to keep your code secure.
+
+| Folder | Content | Details |
+| ------ | ------- | ------- |
+| / | [2.A.BasicChat.ipynb](2.A.BasicChat.ipynb) | Polyglot Notebook for a chat application using REST |
+| / | [2.B.BasicChat.ipynb](2.B.BasicChat.ipynb) | Notebook for calling models like whisper and ada via REST |
+
+## Making Your First Call
+
+To call the OpenAI endpoint, structure your HTTP requests as follows:
+
+```
+<Http Method> https://<aoai endpoint>/deployments/<deployment id>/query?api-version=<version>
+```
+
+The body or payload of each call is in JSON format. The following is an example of a call to the OpenAI endpoint:
+
+```
+@SubscriptionKey=<api-key>
+@EndPoint=<end-point>
+@EmbeddingModel=text-embedding-ada-002 #as an example
+
+POST {{EndPoint}}/deployments/{{EmbeddingModel}}/embeddings?api-version=2023-05-15
+Content-Type: application/json
+api-key: {{SubscriptionKey}}
+
+{
+    "input": "This is a test"  
+}
+
+```
+
+The response would look like this (the 1536 dimensional vector is truncated):
+
+```
+HTTP/1.1 200 OK
+Content-Length: 33437
+Content-Type: application/json
+apim-request-id: afa96e36-c368-482e-98b6-f478381b707d
+x-ms-region: East US
+x-content-type-options: nosniff
+openai-processing-ms: 29.1074
+access-control-allow-origin: *
+x-request-id: 838e82e7-c9aa-4f00-971a-eb90252ebae1
+x-ms-client-request-id: afa96e36-c368-482e-98b6-f478381b707d
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Date: Sun, 10 Sep 2023 12:05:40 GMT
+Connection: close
+
+{
+  "object": "list",
+  "data": [
+  ],
+  "model": "ada",
+  "usage": {
+    "prompt_tokens": 4,
+    "total_tokens": 4
+  }
+}
+```
+
+
+In this response, you can see information like token usage and processing time. The data section would typically contain the output vector.
+
+
+<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity: TODO: Run the EST, SDKs & Orchestration Notebook</b></p>
+
+TODO: Activity Description and tasks
+
+<p><img style="margin: 0px 15px 15px 0px;" src="../graphics/checkmark.png"><b>Description</b></p>
+
+TODO: Enter activity description with checkbox
+
+<p><img style="margin: 0px 15px 15px 0px;" src="../graphics/checkmark.png"><b>Steps</b></p>
+
+TODO: Enter activity steps description with checkbox
+
+<p style="border-bottom: 1px solid lightgrey;"></p><br>
+
+
 
 <p><img style="margin: 0px 15px 15px 0px;" src="../graphics/owl.png"><b>For Further Study</b></p>
 <ul>
