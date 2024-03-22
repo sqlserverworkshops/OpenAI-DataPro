@@ -148,24 +148,6 @@ Azure AI Studio provides flexibility, cost transparency, and responsible AI prac
    - **Pay-as-you-go**: With pay-as-you-go pricing, you're billed according to the Azure AI services offering you use, based on its billing information.
    - **Commitment Tiers**: Commitment tier pricing allows you to commit to using several service features for a fixed fee, ensuring predictable total costs based on your workload needs¹.
 
-TODO: Topic Description
-
-<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity: TODO: Activity Name</b></p>
-
-TODO: Activity Description and tasks
-
-<p><img style="margin: 0px 15px 15px 0px;" src="../graphics/checkmark.png"><b>Description</b></p>
-
-TODO: Enter activity description with checkbox
-
-<p><img style="margin: 0px 15px 15px 0px;" src="../graphics/checkmark.png"><b>Steps</b></p>
-
-TODO: Enter activity steps description with checkbox
-
-<p style="border-bottom: 1px solid lightgrey;"></p>
-
-<p style="border-bottom: 1px solid lightgrey;"></p>
-
 <h2><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">2.4 - Accesing the studio</h2>
 <br></br>
 
