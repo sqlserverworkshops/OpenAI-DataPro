@@ -33,7 +33,7 @@ You can view all of the [courses and other workshops our team has created at thi
 - Decision-Making Power for Data/AI projects: The ability to make informed choices when it comes to AI project design and deployment.
 - Insider Tips on working with AI and Data: Valuable insights and practical tips to elevate your AI projects to new heights.
 
-Join us on this transformative journey as we unlock the doors to AI innovation. 
+Join us on this transformative journey as we unlock the doors to AI innovation.
 
 #### The concepts and skills taught in this workshop form the starting points for:
 
@@ -43,11 +43,7 @@ Join us on this transformative journey as we unlock the doors to AI innovation.
 <p style="border-bottom: 1px solid lightgrey;"></p>
 <img style="float: left; margin: 0px 15px 15px 0px;" src="https://raw.githubusercontent.com/microsoft/sqlworkshops/master/graphics/building1.png"> <h2>Business Applications of this Workshop</h2>
 
-Businesses require <TODO: Describe the reason the student's business or organization would be interested in the information. Be detailed about the solutions it addresses> 
-
-Some industry examples of <TODO: Workshop Topic> are <TODO: Enter Sectors and use briefly>, to name just a few.
-
-<p style="border-bottom: 1px solid lightgrey;"></p>
+Businesses require the ability to use Artificial Intelligence within all parts of their solutions. However, one size does not fit all solutions. The key for correctly applying AI into solutions is to first understand the requirements and constraints for the solution, and then to fully understand the background, mechanisms, and tools you can use to solve for the solution. This course provides an explanation of how AI developed over time, and the multiple tools and platforms you can use to implement it. It focuses on the data solutions in and on the Microsoft Azure Data platform, and includes on-premises solutions such as Microsoft SQL Server. 
 
 <img style="float: left; margin: 0px 15px 15px 0px;" src="https://raw.githubusercontent.com/microsoft/sqlworkshops/master/graphics/listcheck.png"> <h2>Technologies used in this Workshop</h2>
 
@@ -57,8 +53,8 @@ The solution includes the following technologies - although you are not limited 
 
   <tr><th style="background-color: #1b20a1; color: white;">Technology</th> <th style="background-color: #1b20a1; color: white;">Description</th></tr>
 
-  <tr><td><i>TODO: Technology name not owned by Microsoft that you will cover</i></td><td>TODO: Reason the student needs to learn it</td></tr>
-  <tr><td>TODO: Technology name owned by Microsoft that you will cover</td><td>TODO: Reason the student needs to learn it</td></tr>
+  <tr><td> Microsoft SQL Server</i></td><td>TODO: Reason the student needs to learn it</td></tr>
+  <tr><td> Microsoft Fabric Analytics</td><td>TODO: Reason the student needs to learn it</td></tr>
 
 </table>
 
