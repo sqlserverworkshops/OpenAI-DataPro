@@ -18,7 +18,7 @@ Welcome to this Microsoft solutions workshop on *Unlocking AI Potential for the 
 - Get Hands-On Collaboration: Engage in collaborative exercises where you’ll team up with fellow participants. Together, you’ll design robust architectures and make informed decisions about AI project implementation.
 - Learn Scalability and Security: Learn how to build scalable, secure, and production-ready AI/Data solutions using Azure OpenAI.
 
-This [github README.MD file](https://lab.github.com/githubtraining/introduction-to-github) explains how the workshop is laid out, what you will learn, and the technologies you will use in this solution. To download this Lab to your local computer, click the **Clone or Download** button you see at the top right side of this page. [More about that process is here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository). 
+This [github README.MD file](https://lab.github.com/githubtraining/introduction-to-github) explains how the workshop is laid out, what you will learn, and the technologies you will use in this solution. To download this Lab to your local computer, click the **Clone or Download** button you see at the top right side of this page. [More about that process is here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
 
 You can view all of the [courses and other workshops our team has created at this link - open in a new tab to find out more.](https://microsoft.github.io/sqlworkshops/)
 
@@ -33,7 +33,7 @@ You can view all of the [courses and other workshops our team has created at thi
 - Decision-Making Power for Data/AI projects: The ability to make informed choices when it comes to AI project design and deployment.
 - Insider Tips on working with AI and Data: Valuable insights and practical tips to elevate your AI projects to new heights.
 
-Join us on this transformative journey as we unlock the doors to AI innovation. 
+Join us on this transformative journey as we unlock the doors to AI innovation.
 
 #### The concepts and skills taught in this workshop form the starting points for:
 
@@ -43,11 +43,7 @@ Join us on this transformative journey as we unlock the doors to AI innovation.
 <p style="border-bottom: 1px solid lightgrey;"></p>
 <img style="float: left; margin: 0px 15px 15px 0px;" src="https://raw.githubusercontent.com/microsoft/sqlworkshops/master/graphics/building1.png"> <h2>Business Applications of this Workshop</h2>
 
-Businesses require <TODO: Describe the reason the student's business or organization would be interested in the information. Be detailed about the solutions it addresses> 
-
-Some industry examples of <TODO: Workshop Topic> are <TODO: Enter Sectors and use briefly>, to name just a few.
-
-<p style="border-bottom: 1px solid lightgrey;"></p>
+Businesses require the ability to use Artificial Intelligence within all parts of their solutions. However, one size does not fit all solutions. The key for correctly applying AI into solutions is to first understand the requirements and constraints for the solution, and then to fully understand the background, mechanisms, and tools you can use to solve for the solution. This course provides an explanation of how AI developed over time, and the multiple tools and platforms you can use to implement it. It focuses on the data solutions in and on the Microsoft Azure Data platform, and includes on-premises solutions such as Microsoft SQL Server.
 
 <img style="float: left; margin: 0px 15px 15px 0px;" src="https://raw.githubusercontent.com/microsoft/sqlworkshops/master/graphics/listcheck.png"> <h2>Technologies used in this Workshop</h2>
 
@@ -57,55 +53,10 @@ The solution includes the following technologies - although you are not limited 
 
   <tr><th style="background-color: #1b20a1; color: white;">Technology</th> <th style="background-color: #1b20a1; color: white;">Description</th></tr>
 
-  <tr><td><i>TODO: Technology name not owned by Microsoft that you will cover</i></td><td>TODO: Reason the student needs to learn it</td></tr>
-  <tr><td>TODO: Technology name owned by Microsoft that you will cover</td><td>TODO: Reason the student needs to learn it</td></tr>
+  <tr><td> Microsoft SQL Server</i></td><td> Part of this course involves the use of SQL Server with Machine Learning Services. You'll also use SQL Server as a "Data Source" for using or training AI constructs.</td></tr>
+  <tr><td> Microsoft Fabric Analytics</td><td> This course also uses Microsoft Fabric Analytics as a platform for AI. You'll want to be familiar with the basics of this platform to use it for those AI applications.</td></tr>
 
 </table>
-
-<p style="border-bottom: 1px solid lightgrey;"></p>
-
-<img style="float: left; margin: 0px 15px 15px 0px;" src="https://raw.githubusercontent.com/microsoft/sqlworkshops/master/graphics/owl.png"> <h2>Before Taking this Workshop</h2>
-
-You'll need a local system that you are able to install software on. The workshop demonstrations use Microsoft Windows as an operating system and all examples use Windows for the workshop. Optionally, you can use a Microsoft Azure Virtual Machine (VM) to install the software on and work with the solution.
-
-You must have a Microsoft Azure account with the ability to create assets.
-
-This workshop expects that you understand <TODO: Enter a brief solution for what a student should know before taking the workshop>.
-
-If you are new to these, here are a few references you can complete prior to class:
-
-<TODO: Enter some pre-work courses or books or whatever that the student could use to prep>
--  [Reference Name](https://url)
--  [Reference Name](https://url)
--  [Reference Name](https://url)
--  [Reference Name](https://url)
-
-
-<img style="float: left; margin: 0px 15px 15px 0px;" src="https://raw.githubusercontent.com/microsoft/sqlworkshops/master/graphics/bulletlist.png"> <h3>Setup</h3>
-
-<a href="https://github.com/sqlserverworkshops/OpenAI-DataPro/blob/main/sqldev/00%20-%20Pre-Requisites.md" target="_blank">A full pre-requisites document is located here</a>. These instructions should be completed before the workshop starts, since you will not have time to cover these in class. <i>Remember to turn off any Virtual Machines from the Azure Portal when not taking the class so that you do incur charges (shutting down the machine in the VM itself is not sufficient)</i>.
-
-<p style="border-bottom: 1px solid lightgrey;"></p>
-
-<img style="float: left; margin: 0px 15px 15px 0px;" src="https://raw.githubusercontent.com/microsoft/sqlworkshops/master/graphics/education1.png"> <h2>Workshop Details</h2>
-
-This workshop uses <TODO: enter main technologies used to solve the sceanrio>, with a focus on <TODO: architecture and implementation, development and use, etc>.
-
-<table style="tr:nth-child(even) {background-color: #f2f2f2;}; text-align: left; display: table; border-collapse: collapse; border-spacing: 5px; border-color: gray;">
-
-  <tr><td style="background-color: Cornsilk; color: black; padding: 5px 5px;">Primary Audience:</td><td style="background-color: Cornsilk; color: black; padding: 5px 5px;">TODO: Enter the technical people who will take the workshop> tasked with TODO: Enter what they are tasked to do</td></tr>
-  <tr><td>Secondary Audience:</td><td> TODO: Secondary Audience</td></tr>
-  <tr><td style="background-color: Cornsilk; color: black; padding: 5px 5px;">Level: </td><td style="background-color: Cornsilk; color: black; padding: 5px 5px0;"> TODO: 100, 200, 300, 400 </td></tr>
-  <tr><td>Type:</td><td>TODO: In-Person, On-Line, or from github</td></tr>
-  <tr><td style="background-color: Cornsilk; color: black; padding: 5px 5px;">Length: </td><td style="background-color: Cornsilk; color: black; padding: 5px 5px;">TODO: Number of hours</td></tr>
-
-</table>
-
-<p style="border-bottom: 1px solid lightgrey;"></p>
-
-<img style="float: left; margin: 0px 15px 15px 0px;" src="https://raw.githubusercontent.com/microsoft/sqlworkshops/master/graphics/pinmap.png"> <h2>Related Workshops</h2>
-
- - [TODO: Enter any other workshops that help in this area](url)
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
