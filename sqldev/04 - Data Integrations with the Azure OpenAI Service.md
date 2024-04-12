@@ -153,6 +153,7 @@ In this exercise you will review a complete walkthrough of how to utilize Copilo
      <li><a href="https://youtu.be/GOq5gOdKEVs" target="_blank">Microsoft Fabric Copilot for Notebooks & Data Science! Magic commands to write, execute, & FIX code!</a></li>
     <li><a href="https://www.youtube.com/watch?v=HzdZ0n0lpFw" target="_blank">Data Science in Microsoft Fabric – Model scoring with PREDICT</a></li>
     <li><a href="https://blog.fabric.microsoft.com/en-us/blog/fabric-change-the-game-unleashing-the-power-of-microsoft-fabric-and-openai-for-dataset-search/" target="_blank">Fabric Change the Game: Unleashing the Power of Microsoft Fabric and OpenAI for Dataset Search</a></li>
+    <li><a href="https://learn.microsoft.com/en-us/fabric/data-science/open-ai" target="_blank">Azure OpenAI for big data</a></li>
 </ul>
 
 Congratulations! You have completed this Module.<a href="https://github.com/sqlserverworkshops/OpenAI-DataPro/blob/main/sqldev/05%20-%20DataAI%20Projects%20Best%20Practices.md"> Click this link to continue to the next Module in the Workshop</a>.
