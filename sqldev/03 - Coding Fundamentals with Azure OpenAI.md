@@ -77,15 +77,7 @@ https://platform.openai.com/docs/quickstart?context=python
 
 <p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity: TODO: Run the Basic Chat Notebook</b></p>
 
-TODO: Activity Description and tasks
 
-<p><img style="margin: 0px 15px 15px 0px;" src="../graphics/checkmark.png"><b>Description</b></p>
-
-TODO: Enter activity description with checkbox
-
-<p><img style="margin: 0px 15px 15px 0px;" src="../graphics/checkmark.png"><b>Steps</b></p>
-
-TODO: Enter activity steps description with checkbox
 
 <p style="border-bottom: 1px solid lightgrey;"></p><br>
 
@@ -113,7 +105,16 @@ OpenAI's large language models (sometimes referred to as GPT's) process text usi
 
 Text generation and embeddings models process text in chunks called tokens. Tokens represent commonly occurring sequences of characters. For example, the string " tokenization" is decomposed as " token" and "ization", while a short and common word like " the" is represented as a single token. Note that in a sentence, the first token of each word typically starts with a space character. Check out the tokenizer tool to test specific strings and see how they are translated into tokens. As a rough rule of thumb, 1 token is approximately 4 characters or 0.75 words for English text.
 
-https://platform.openai.com/tokenizer
+### How are Tokens Used?
+Given an input prompt, the natural language models generate completions one token at a time. However, the generated token is not deterministic. At each step, the model outputs a list of all possible tokens with associated weights. The API samples one token from this list, with heavily-weighted tokens more likely to be selected than the others.
+
+<p align="center">
+  <img src="../graphics/llmtokensusage.png">
+</p>
+
+It then adds that token to the prompt and repeats the process until the "max token count" limit (context window) is met for the completion - or until the model generates a special "stop token", which halts further token generation. (This blog post by Beatriz Stollnitz explains the process in detail.)
+
+This is how the model generates completions of one or more words, and why those completions can change from invocation to invocation.
 
 ### Why Does it Matter?
 
@@ -123,9 +124,57 @@ To understand why tokenization matters, we need to think about two aspects of de
 
 **Token Pricing.** Like with any API, model deployment usage incurs costs based on the model type and version. Currently, model pricing is tied to number of tokens used, with different price points possible for each model type or version.
 
-
 One limitation to keep in mind is that for a text generation model the prompt and the generated output combined must be no more than the model's maximum context length. For embeddings models (which do not output tokens), the input must be shorter than the model's maximum context length. The maximum context lengths for each text generation and embeddings model can be found in the model index.
 
+The table below shows the context window (max tokens) and the model pricing (billed in 1K increments) for Azure OpenAI Models.
+
+<p align="center">
+  <img src="../graphics/aoia-pricing-tokens.png">
+</p>
+
+Note how newer models like gpt-4-32k have much larger token limits: up to 32,768 tokens. This not only allows for longer completions but also much larger prompts. This is particularly useful for prompt engineering, as we'll see later.
+
+Keep in mind that usage cost is correspondingly higher. Prompt engineering techniques can also help improve cost efficiency by crafting prompts that minimize token usage costs without sacrificing quality of responses.
+
+### OpenAI Tokenizer Tool
+
+Want to get a better sense of how tokenization works on real text? Use [OpenAI Tokenizer](https://platform.openai.com/tokenizer) - a free online tool that visualizes the tokenization and displays the total token count for the given text data.
+
+https://platform.openai.com/tokenizer
+
+[Learn More:](https://help.openai.com/articles/4936856-what-are-tokens-and-how-to-count-them)
+
+### Try The Example
+Visit the site and click "show example" to see it in action as shown below. Each color-coded segment represents a single token, with the total token count displayed below (57 tokens).
+
+Note how "1234567890" and "underlying" have the same string lengths - but the former counts for 4 tokens while the latter counts for 
+
+1. Also observe how punctuation (":",".") take up 1 token each, cutting into prompt token limits.
+
+<p align="center">
+  <img src="../graphics/tokenizer-example.png">
+</p>
+
+### Try The Exercises
+
+> [! YOUR TURN]  
+> Visit https://platform.openai.com/tokenizer. Clear the tool before each exercise. Enter the exercise text into the Tokenizer and observe the output - it should update interactively.
+
+**Exercise 1:** As a common word, "apple" requires only one token.
+
+    apple
+
+**Exercise 2:** The word "blueberries" requires two tokens: "blue" and "berries".
+
+    blueberries
+
+**Exercise 3:** Proper names generally require multiple tokens (unless common)
+
+    Skarsgård
+
+It's this token representation that allows AI models to generate words that are not in any dictionary, but without having to generate text on a letter-by-letter basis (which could easily result in gibberish).
+
+Build your intuition by trying out other words or phrases.
 
 <p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity: TODO: Run the Tokenization Section of the Notebook</b></p>
 
@@ -139,8 +188,63 @@ TODO: Activity Description and tasks
 <br>
 
   * What is a Prompt?
-  * What is a Completion?
   * Prompt Engineering
+
+### Prompt components
+
+While it is considered a new field, rich literature is already available, including articles, blogs, research papers, repos, etc., about prompt engineering techniques.
+
+A common technique is to construct prompts from a well-defined set of components, as shown in the following diagram.
+
+<p align="center">
+  <img src="../graphics/prompt_comp.png">
+</p>
+
+### Instructions and other static context
+Static context description refers to providing fixed information to the LLM. This information can include content and format instructions, database schema information, or any other contextual information that is relevant to the task. Here are some widely-used approaches that demonstrate using static context examples in prompt engineering:
+
+### Establish conversational or functional style with a system message
+A system message can be used to inform the LLM about the context. The context may be the type of conversation it is engaging in, or the function it is supposed to perform. It helps the LLM generate more appropriate responses. For example, if the LLM is expected to perform a customer service function, the prompt could include a system message such as:
+
+
+    You are a friendly AI agent who can provide assistance to the customer regarding their recent order.
+
+Similarly, if the LLM is engaging in a casual conversation, the prompt could include a message such as
+
+    Let's have a friendly chat about your favorite hobbies.
+
+### Use input text to guide completion formatting
+
+By formatting input text in a specific way, we can guide the LLMs towards generating more relevant responses. For example, if the LLM is trained to generate recipe instructions, the input text could be formatted as "First, [action], then [action], and finally [action]." This formatting guides the LLM towards generating instructions in a sequential manner. Similarly, if the LLM is trained to generate summaries of news articles, the input text could be formatted as "The article talks about [topic]. It discusses [point 1], [point 2], and [point 3]." This formatting guides the LLM towards generating a summary that covers the main points of the article. Here we can see the importance of using the correct comment character for the language that you want to generate.
+
+Prompt: /* Create a javascript dictionary with 5 cities and their location */ Completion:
+
+    var cities = {
+    'Los Angeles': [34.0522, -118.2437],
+    'New York': [40.7128, -74.0059],
+    'San Francisco': [37.7749, -122.4194],
+    'Chicago': [41.8781, -87.6298],
+    'Houston': [29.7604, -95.3698]
+    };
+
+### Add supporting information
+Adding supporting information to the prompt can provide more context for the LLM, which can improve the accuracy of its responses. For example, if the prompt asks the LLM to generate a response to a specific question, providing additional information can help the LLM generate a more relevant response. A good example of this is:
+
+    Please explain transformer language model to a 15-year-old student.
+
+Similarly, the LLM generates a more accurate and persuasive description when provided with additional information if asked to generate a product description. A good example is:
+
+        Write a witty product description in a conversational style so young adult shoppers understand
+        what this product does and how it benefits them.
+
+        Use the following product details to summarize your description:
+
+        Title: {{shopify.title}}
+        Type: {{shopify.type}}
+        Vendor: {{shopify.vendor}}
+        Tags: {{shopify.tags}}
+
+
 
 <br>
 <p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity: TODO: Run the Prompts & Completions Notebook</b></p>
@@ -151,7 +255,41 @@ TODO: Activity Description and tasks
 <h2><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">3.5 TODO: Techniques</h2>
 
 
+This section discusses prompt engineering techniques that can help LLMs solve certain problems more effectively.
 
+<p align="center">
+  <img src="../graphics/in_context.png">
+</p>
+
+### Zero-shot learning
+
+LLMs are trained on such large amounts of data they may be be able to perform some tasks with very little prompting. Try the example below and change the sentence to see what outcomes you find.
+
+      Classify the text into neutral, negative or positive.
+      Text: My calendar today looks ok
+      Sentiment:
+
+### Few-shot learning
+
+If zero-shot learning is failing for your examples and more complex tasks, few shot prompting can provide examples that can better steer the model to the desired outcomes. Examples show the model cleanly how we want it to operate. Try the example below to see the outcome. Can you think of other examples that could leverage few-shot learning?
+
+        Headline: Twins' Correa to use opt-out, test free agency
+        Topic: Baseball
+        Headline: Qatar World Cup to have zones for sobering up
+        Topic: Soccer
+        Headline: Yates: Fantasy football intel for Week 6
+        Topic: Football
+        Headline: Coach confident injury won't derail Warriors
+        Topic:
+
+### Chain of thought prompting
+
+In this technique, the LLM is responsible for breaking the task down into smaller steps. The LLM uses its knowledge of the world and its ability to reason. The LLM then generates a chain of thoughts that leads to the solution of the task.
+
+Refresh the Playground page to reset the System Message to its default value, and then enter the user prompt below to see 'Chain of thought prompting' in action:
+
+        Who was the first person to walk on the moon? Take a step-by-step approach in your response, cite sources, and give reasoning before sharing a final answer in the below format: ANSWER is: <name>
+        
 <p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity: TODO: Run the Techniques Notebook</b></p>
 
 <p style="border-bottom: 1px solid lightgrey;"></p><br>

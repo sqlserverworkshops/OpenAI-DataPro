@@ -53,7 +53,6 @@ The security threats and risks with traditional software applications are famili
 
 The diagram below is from [OWASP Top 10 for Large Language Model Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/assets/PDF/OWASP-Top-10-for-LLMs-2023-v1_1.pdf) and depicts the potential security risks for a hypothetical LLM app:  
 
-![GenAI Security](../../media/images/OWASP-Security-Risks-LLM-Apps.png) 
 
 ## Security Strategies  
 Infrastructure plays an indispensable role in helping create a secure landscape for *GenAI* applications, particularly cloud environments. Below are strategies tht can help ensure the security of a *GenAI* environment:    
@@ -114,7 +113,6 @@ You can see more about privacy and compliance in the Microsoft Azure OpenAI serv
 <h2><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">4.2 Responsible AI</h2>
 
 # Guidance: Responsible AI (RAI)
-![Responsible AI (RAI)](../../media/images/banner-rai.png)
 
 ## Introduction
 There is a lot to be excited about with recent advances in AI and LLM technology, but every day there are examples in the media about where and how it has gone wrong. As AI is integrated into more of our daily work and personal lives it can cause minor inconveniences, such as mistakenly canceled appointments, to more serious issues, such as potential job displacement and privacy compromises — and may even compound already existing social or economic inequities. All of us who design, develop, and deploy AI have a responsibility to confront the risks that the technology introduces.
