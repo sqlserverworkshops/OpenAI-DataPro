@@ -52,14 +52,6 @@ It's currently in public preview.
 
 <br>
 
-<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity: TODO: Activity Name</b></p>
-
-TODO: Activity Description and tasks
-
-<p><img style="margin: 0px 15px 15px 0px;" src="../graphics/checkmark.png"><b>Steps</b></p>
-
-- [Open this Jupyter Notebook](https://github.com/sqlserverworkshops/OpenAI-DataPro/blob/main/notebooks/Notebook%20-%20Module%202.ipynb) and review the results from the instructions and code. You can download the Notebook and enter your own credentials and other variables to run it on your system once you have [completed the pre-requisites](https://github.com/sqlserverworkshops/OpenAI-DataPro/blob/main/sqldev/00%20-%20Pre-Requisites.md).
-
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
 <h2><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">2.2 - Getting around in Azure AI Studio</h2>
@@ -108,9 +100,10 @@ Developers have the capability to manage settings related to connections and com
 
 <br>
 <img style="height: 400; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="https://learn.microsoft.com/en-us/azure/ai-studio/media/explore/ai-studio-tab-manage.png">
+
 </br>
 
-<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity: Review Azure AI Studio deep dive demo video</b></p>
+<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Self Guided Activity: Review Azure AI Studio deep dive demo video</b></p>
 
 Review Azure AI Studio deep dive demo video
  <p><a href="https://learn.microsoft.com/en-us/azure/ai-studio/what-is-ai-studio?tabs=manage#azure-ai-studio-enterprise-chat-solution-demo"><img src="https://img.youtube.com/vi/Qes7p5w8Tz8/1.jpg" height = 200></a> 
@@ -159,20 +152,14 @@ Azure OpenAI requires registration and is currently only available to approved e
 ### Registering
 You can explore Azure AI Studio without signing in, but for full functionality an Azure account is needed and apply for access to Azure OpenAI Service by completing the form at https://aka.ms/oai/access. You receive a follow-up email when your subscription has been added.
 
-TODO: Topic Description
-
-<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity: TODO: Activity Name</b></p>
-
-TODO: Activity Description and tasks
-
-<p><img style="margin: 0px 15px 15px 0px;" src="../graphics/checkmark.png"><b>Description</b></p>
+<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity: Explore Azure AI Studio.</b></p>
 
 For this exercise you will chose the link in the steps below. Follow the instructions 
 
 <p><img style="margin: 0px 15px 15px 0px;" src="../graphics/checkmark.png"><b>Steps</b></p>
 
-If you have an Azure subscription with access to the Azure OpenAI service, you can explore Azure AI Studio for yourself.
-https://learn.microsoft.com/en-us/training/modules/introduction-to-azure-ai-studio/5-exercise-explore-ai-studio
+- If you have an Azure subscription with access to the Azure OpenAI service, you can explore Azure AI Studio for yourself.
+- https://learn.microsoft.com/en-us/training/modules/introduction-to-azure-ai-studio/5-exercise-explore-ai-studio
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
