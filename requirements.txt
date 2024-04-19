@@ -1,0 +1,11 @@
+openai
+python-dotenv
+PyPDF2
+panel
+pillow
+Jinja2
+langchain
+semantic-kernel
+tenacity
+tiktoken
+yfinance
