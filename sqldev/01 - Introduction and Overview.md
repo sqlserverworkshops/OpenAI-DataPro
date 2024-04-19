@@ -85,7 +85,7 @@ Predictive AI methods are techniques used in artificial intelligence to make pre
 
 <h3>Bayesian Decision Theory</h3>
 
-A particulaly inmportant concept in Predictive AI is *Bayesian Decision Theory* - a fundamental statistical approach to the problem of pattern classification. It provides a framework for making decisions under uncertainty. The theory combines the use of a likelihood function with a prior probability distribution to make decisions.
+A particulaly important concept in Predictive AI is *Bayesian Decision Theory* - a fundamental statistical approach to the problem of pattern classification. It provides a framework for making decisions under uncertainty. The theory combines the use of a likelihood function with a prior probability distribution to make decisions.
 
 The main steps in Bayesian Decision Theory are:
 

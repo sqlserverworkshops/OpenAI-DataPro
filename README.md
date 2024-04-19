@@ -72,31 +72,26 @@ This is a modular workshop, and in each section, you'll learn concepts, technolo
   <tr><td>
     <a href="https://github.com/sqlserverworkshops/OpenAI-DataPro/blob/main/sqldev/01%20-%20Introduction%20and%20Overview.md" target="_blank">01 - Introduction and Overview </a></td>
     <td> Pre-requisites check, environment setup, overview of the workshop. An introduction to Artificial Intelligence, progressing from foundations through Generative AI. 
-    <p><i>(30 minutes) - Buck</i></p>
   </td></tr>
   
   <tr><td style="background-color: AliceBlue; color: black;">
     <a href="https://github.com/sqlserverworkshops/OpenAI-DataPro/blob/main/sqldev/02%20-%20Implementing%20AI%20Studio.md" target="_blank">02 - Implementing AI Studio </a> </td>
     <td td style="background-color: AliceBlue; color: black;"> Introduction, fundamentals, and a practical walkthrough of using Microsoft AI Studio. 
-    <p><i>(30 minutes) - Dan/Andres/Neeraj</i></p>
   </td></tr>
   
   <tr><td>
     <a href="https://github.com/sqlserverworkshops/OpenAI-DataPro/blob/main/sqldev/03%20-%20Coding%20Fundamentals%20with%20Azure%20OpenAI.md" target="_blank">03 - Coding fundamentals with Azure OpenAI </a></td>
     <td>  Using REST and API using the Azure OpenAI service. 
-    <p><i>(1 hour) - Andres/Joshua</i></p> 
   </td></tr>
 
   <tr><td>
     <a href="https://github.com/sqlserverworkshops/OpenAI-DataPro/blob/main/sqldev/04%20-%20Data%20Integrations%20with%20the%20Azure%20OpenAI%20Service.md" target="_blank">04 - Data Integrations with the Azure OpenAI Service </a></td>
     <td> Introduction, fundamentals and examples of using the Azure OpenAI service in Data/AI projects, including SQL Server on-premises, Azure SQL DB, and Microsoft Fabric Analytics. 
-    <p><i>(2.5 hours) - Buck/Bradley/Nerraj</i></p>
   </td></tr>
   
   <tr><td style="background-color: AliceBlue; color: black;">
     <a href="https://github.com/sqlserverworkshops/OpenAI-DataPro/blob/main/sqldev/05%20-%20DataAI%20Projects%20Best%20Practices.md" target="_blank">05 - Data/AI Projects Best Practices</a> </td>
     <td td style="background-color: AliceBlue; color: black;"> Security, Scale, and Safety concepts for using Azure OpenAI in Data/AI Projects. 
-    <p><i>(30 minutes) - Neeraj/Bradley</i></p> 
   </td></tr>  
     
 </table>
@@ -125,7 +120,7 @@ contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additio
 # Legal Notices
 
 ### License
-Microsoft and any contributors grant you a license to the Microsoft documentation and other content in this repository under the [Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/legalcode), see [the LICENSE file](https://github.com/MicrosoftDocs/mslearn-tailspin-spacegame-web/blob/master/LICENSE), and grant you a license to any code in the repository under [the MIT License](https://opensource.org/licenses/MIT), see the [LICENSE-CODE file](https://github.com/MicrosoftDocs/mslearn-tailspin-spacegame-web/blob/master/LICENSE-CODE).
+Microsoft and any contributors grant you a license to the Microsoft documentation and other content in this repository under the [Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/legalcode), see [the LICENSE file](https://github.com/sqlserverworkshops/OpenAI-DataPro/blob/main/LICENSE), and grant you a license to any code in the repository under [the MIT License](https://opensource.org/licenses/MIT), see the [LICENSE-CODE file](https://github.com/microsoft/vscode/blob/main/LICENSE.txt).
 
 Microsoft, Windows, Microsoft Azure and/or other Microsoft products and services referenced in the documentation
 may be either trademarks or registered trademarks of Microsoft in the United States and/or other countries.
