@@ -18,7 +18,7 @@ Welcome to this Microsoft solutions workshop on *Unlocking AI Potential for the 
 - Get Hands-On Collaboration: Engage in collaborative exercises where you’ll team up with fellow participants. Together, you’ll design robust architectures and make informed decisions about AI project implementation.
 - Learn Scalability and Security: Learn how to build scalable, secure, and production-ready AI/Data solutions using Azure OpenAI.
 
-This [github README.MD file](https://lab.github.com/githubtraining/introduction-to-github) explains how the workshop is laid out, what you will learn, and the technologies you will use in this solution. To download this Lab to your local computer, click the **Clone or Download** button you see at the top right side of this page. [More about that process is here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
+This [github README.MD file](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes) explains how the workshop is laid out, what you will learn, and the technologies you will use in this solution. To download this Lab to your local computer, click the **Clone or Download** button you see at the top right side of this page. [More about that process is here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
 
 You can view all of the [courses and other workshops our team has created at this link - open in a new tab to find out more.](https://microsoft.github.io/sqlworkshops/)
 
