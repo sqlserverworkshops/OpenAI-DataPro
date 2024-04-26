@@ -121,8 +121,7 @@ Time permitting review end to end demo of Azure AI Studio deep dive.
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
-<h2 id="2.3"><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">2.3 - Governance and Administration</h2>
-<br></br>
+<h2 id="2.3"><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">2.3 - Governance and Administration</h2><br>
 
 Azure AI Studio provides flexibility, cost transparency, and responsible AI practices while enabling you to build and deploy powerful AI solutions.
 
@@ -141,7 +140,7 @@ Azure AI Studio provides flexibility, cost transparency, and responsible AI prac
    - **Pay-as-you-go**: With pay-as-you-go pricing, you're billed according to the Azure AI services offering you use, based on its billing information.
    - **Commitment Tiers**: Commitment tier pricing allows you to commit to using several service features for a fixed fee, ensuring predictable total costs based on your workload needs¹.
 
-<h2 id="2.4"><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">2.4 - Accesing the studio</h2><br></br>
+<h2 id="2.4"><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">2.4 - Accesing the studio</h2><br>
 
 In this section, you will learn how to access and register for Azure AI Studio.
 
