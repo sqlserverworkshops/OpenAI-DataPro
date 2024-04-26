@@ -718,17 +718,15 @@ Connection: close
 In this response, you can see information like token usage and processing time. The data section would typically contain the output vector.
 
 
-<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity: TODO: Run the EST, SDKs & Orchestration Notebook</b></p>
 
-TODO: Activity Description and tasks
+<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity: Run the REST, SDKs & Orchestration Notebook</b></p>
 
-<p><img style="margin: 0px 15px 15px 0px;" src="../graphics/checkmark.png"><b>Description</b></p>
-
-TODO: Enter activity description with checkbox
+In this section, you will review a Jupyter Notebook and explore different SDKs (LangChan, Semantic Kernal) and orchestration methods such as Assistants APIs. You can also download this Notebook to your local system and modify it for your learning journey.
 
 <p><img style="margin: 0px 15px 15px 0px;" src="../graphics/checkmark.png"><b>Steps</b></p>
 
-TODO: Enter activity steps description with checkbox
+- [Open this Jupyter Notebook](https://github.com/sqlserverworkshops/OpenAI-DataPro/blob/main/notebooks/Notebook%20-%20Module%203.ipynb) and look for the "Cell" description **REST, SDKs & Orchestration.** and review the results from the instructions and code. You can download the Notebook and enter your own credentials and other variables to run it on your system once you have [completed the pre-requisites](https://github.com/sqlserverworkshops/OpenAI-DataPro/blob/main/sqldev/00%20-%20Pre-Requisites.md).
+
 
 <p style="border-bottom: 1px solid lightgrey;"></p><br>
 
