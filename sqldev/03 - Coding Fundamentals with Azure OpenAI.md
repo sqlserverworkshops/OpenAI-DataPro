@@ -338,7 +338,11 @@ While the principles of prompt engineering can be generalized across many differ
 - Chat Completion API.
 - Completion API.
 
-Each API requires input data to be formatted differently, which in turn impacts overall prompt design. The **Chat Completion API** supports the GPT-35-Turbo and GPT-4 models. These models are designed to take input formatted in a [specific chat-like transcript](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/chatgpt) stored inside an array of dictionaries.
+Each API requires input data to be **formatted differently**, which in turn impacts overall prompt design. The **Chat Completion API** supports the GPT-35-Turbo and GPT-4 models. These models are designed to take input formatted in a [specific chat-like transcript](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/chatgpt) stored inside an array of dictionaries.
+
+While these models are extremely powerful, their behavior is also very sensitive to the prompt. This makes prompt construction an important skill to develop.
+
+Prompt construction can be difficult. In practice, the prompt acts to configure the model weights to complete the desired task, but it's more of an art than a science, often requiring experience and intuition to craft a successful prompt. The goal of this section is to help get you started with this learning process. It attempts to capture general concepts and patterns that apply to all GPT models. However it's important to understand that each model behaves differently, so the learnings may not apply equally to all models.
 
 ### Prompt components
 
@@ -394,10 +398,94 @@ Similarly, the LLM generates a more accurate and persuasive description when pro
         Vendor: {{shopify.vendor}}
         Tags: {{shopify.tags}}
 
+### Working with Prompts and Completions
+OpenAI trained the GPT-35-Turbo and GPT-4 models to accept input formatted as a conversation. The messages parameter takes an array of message objects with a conversation organized by role. When you use the Python API, a list of dictionaries is used.
 
+The format of a basic chat completion is:
+
+```
+{"role": "system", "content": "Provide some context and/or instructions to the model"},
+{"role": "user", "content": "The users messages goes here"}
+```
+
+A conversation with one example answer followed by a question would look like:
+
+```
+{"role": "system", "content": "Provide some context and/or instructions to the model."},
+{"role": "user", "content": "Example question goes here."},
+{"role": "assistant", "content": "Example answer goes here."},
+{"role": "user", "content": "First question/message for the model to actually respond to."}
+```
+
+### System role
+
+The system role, also known as the system message, is included at the beginning of the array. This message provides the initial instructions to the model. You can provide various information in the system role, such as:
+
+* A brief description of the assistant.
+* Personality traits of the assistant.
+* Instructions or rules you want the assistant to follow.
+* Data or information needed for the model, such as relevant questions from an FAQ.
+
+You can customize the system role for your use case or include basic instructions. The system role/message is optional, but we recommend that you at least include a basic one to get the best results.
+
+### Messages
+
+After the system role, you can include a series of messages between the `user` and the `assistant`.
+
+```
+ {"role": "user", "content": "What is thermodynamics?"}
+```
+
+To trigger a response from the model, end with a user message to indicate that it's the assistant's turn to respond. You can also include a series of example messages between the user and the assistant as a way to do few-shot learning.
+
+### Message prompt examples
+
+The following section shows examples of different styles of prompts that you can use with the GPT-35-Turbo and GPT-4 models. These examples are only a starting point. You can experiment with different prompts to customize the behavior for your own use cases.
+
+#### Basic example
+
+If you want the GPT-35-Turbo model to behave similarly to [chat.openai.com](https://chat.openai.com/), you can use a basic system message like `Assistant is a large language model trained by OpenAI.`
+
+```
+{"role": "system", "content": "Assistant is a large language model trained by OpenAI."},
+{"role": "user", "content": "Who were the founders of Microsoft?"}
+```
+
+#### Example with instructions
+
+For some scenarios, you might want to give more instructions to the model to define guardrails for what the model is able to do.
+
+```
+{"role": "system", "content": "Assistant is an intelligent chatbot designed to help users answer their tax related questions.
+Instructions: 
+- Only answer questions related to taxes. 
+- If you're unsure of an answer, you can say "I don't know" or "I'm not sure" and recommend users go to the IRS website for more information. "},
+{"role": "user", "content": "When are my taxes due?"}
+```
+
+#### Use data for grounding
+
+You can also include relevant data or information in the system message to give the model extra context for the conversation. If you need to include only a small amount of information, you can hard code it in the system message. If you have a large amount of data that the model should be aware of, you can use [embeddings](https://learn.microsoft.com/en-us/azure/ai-services/openai/tutorials/embeddings?tabs=command-line) or a product like [Azure AI Search](https://techcommunity.microsoft.com/t5/ai-applied-ai-blog/revolutionize-your-enterprise-data-with-chatgpt-next-gen-apps-w/ba-p/3762087) to retrieve the most relevant information at query time.
+
+```
+{"role": "system", "content": "Assistant is an intelligent chatbot designed to help users answer technical questions about Azure OpenAI Serivce. Only answer questions using the context below and if you're not sure of an answer, you can say 'I don't know'.
+
+Context:
+- Azure OpenAI Service provides REST API access to OpenAI's powerful language models including the GPT-3, Codex and Embeddings model series.
+- Azure OpenAI Service gives customers advanced language AI with OpenAI GPT-3, Codex, and DALL-E models with the security and enterprise promise of Azure. Azure OpenAI co-develops the APIs with OpenAI, ensuring compatibility and a smooth transition from one to the other.
+- At Microsoft, we're committed to the advancement of AI driven by principles that put people first. Microsoft has made significant investments to help guard against abuse and unintended harm, which includes requiring applicants to show well-defined use cases, incorporating Microsoft’s principles for responsible AI use."
+},
+{"role": "user", "content": "What is Azure OpenAI Service?"}
+```
 
 <br>
-<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity: TODO: Run the Prompts & Completions Notebook</b></p>
+<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity: Run the Prompts & Completions Notebook</b></p>
+
+In this section, you will review a Jupyter Notebook to explore prompt engineering techniques. You'll explore how to work with prompt construction, patterns, and various prompt formats. We'll demonstrate how to set up and pass prompts in different formats, focusing on small prompt engineering techniques and providing recommendations to help you elicit responses from models tailored to your needs. You can also download this Notebook to your local system and modify it for your learning journey.
+
+<p><img style="margin: 0px 15px 15px 0px;" src="../graphics/checkmark.png"><b>Steps</b></p>
+
+- [Open this Jupyter Notebook](https://github.com/sqlserverworkshops/OpenAI-DataPro/blob/main/notebooks/Notebook%20-%20Module%203.ipynb) and look for the "Cell" description **Prompts & Completions.** and review the results from the instructions and code. You can download the Notebook and enter your own credentials and other variables to run it on your system once you have [completed the pre-requisites](https://github.com/sqlserverworkshops/OpenAI-DataPro/blob/main/sqldev/00%20-%20Pre-Requisites.md).
 
 <p style="border-bottom: 1px solid lightgrey;"></p><br>
 
