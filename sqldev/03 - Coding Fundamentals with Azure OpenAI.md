@@ -274,9 +274,6 @@ Keep in mind that usage cost is correspondingly higher. Prompt engineering techn
 
 Want to get a better sense of how tokenization works on real text? Use [OpenAI Tokenizer](https://platform.openai.com/tokenizer) - a free online tool that visualizes the tokenization and displays the total token count for the given text data.
 
-https://platform.openai.com/tokenizer
-
-
 
 ### Try The Example
 Visit the site and click "show example" to see it in action as shown below. Each color-coded segment represents a single token, with the total token count displayed below (57 tokens).
