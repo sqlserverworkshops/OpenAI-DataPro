@@ -1,4 +1,4 @@
-![](graphics/microsoftlogo.png)
+![](../graphics/microsoftlogo.png)
 
 # Workshop: Unlocking AI Potential for the Data Professional with Azure OpenAI
 
