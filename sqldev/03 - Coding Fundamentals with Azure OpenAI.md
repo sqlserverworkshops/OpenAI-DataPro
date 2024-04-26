@@ -646,19 +646,6 @@ Azure OpenAI, part of Azure Cognitive Services, offers AI models and tools for b
 
 The REST API provides access to cutting-edge features, often available before SDK implementations, allowing developers to leverage the latest LLM capabilities in a flexible manner.
 
-## Prerequisites
-
-Ensure you have the following before starting:
-
-- **VS Code**: The editor where we'll write and execute our API calls.
-- **Azure OpenAI Credentials**: Obtain your key and endpoint from the [Azure portal](https://portal.azure.com/).
-
-Store sensitive information like API keys and endpoints in an `.env` file to keep your code secure.
-
-| Folder | Content | Details |
-| ------ | ------- | ------- |
-| / | [2.A.BasicChat.ipynb](2.A.BasicChat.ipynb) | Polyglot Notebook for a chat application using REST |
-| / | [2.B.BasicChat.ipynb](2.B.BasicChat.ipynb) | Notebook for calling models like whisper and ada via REST |
 
 ## Making Your First Call
 
