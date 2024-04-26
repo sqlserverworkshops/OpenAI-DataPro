@@ -1,4 +1,4 @@
-![image](https://github.com/sqlserverworkshops/OpenAI-DataPro/assets/517325/02649743-1bbb-43c5-91e1-2ee5c58f4352)![](graphics/microsoftlogo.png)
+![](graphics/microsoftlogo.png)
 
 # Workshop: Unlocking AI Potential for the Data Professional with Azure OpenAI
 
