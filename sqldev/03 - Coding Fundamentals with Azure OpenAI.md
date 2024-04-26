@@ -287,7 +287,6 @@ Note how "1234567890" and "underlying" have the same string lengths - but the fo
 </p>
 
 <br>
-<br>
 <p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity:Try The Exercises</b></p>
 
 Visit https://platform.openai.com/tokenizer. Clear the tool before each exercise. Enter the exercise text into the Tokenizer and observe the output - it should update interactively.
@@ -331,6 +330,15 @@ In this section you will review a Jupyter Notebook that uses the Microsoft.ML.To
 
   * What is a Prompt?
   * Prompt Engineering
+
+<br> 
+
+While the principles of prompt engineering can be generalized across many different model types, certain models expect a specialized prompt structure. For Azure OpenAI GPT models, there are currently two distinct APIs where prompt engineering comes into play:
+
+- Chat Completion API.
+- Completion API.
+
+Each API requires input data to be formatted differently, which in turn impacts overall prompt design. The **Chat Completion API** supports the GPT-35-Turbo and GPT-4 models. These models are designed to take input formatted in a [specific chat-like transcript](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/chatgpt) stored inside an array of dictionaries.
 
 ### Prompt components
 
