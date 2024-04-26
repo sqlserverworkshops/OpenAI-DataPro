@@ -289,10 +289,11 @@ Note how "1234567890" and "underlying" have the same string lengths - but the fo
   <img src="../graphics/tokenizer-example.png">
 </p>
 
-### Try The Exercises
+<br>
+<br>
+<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity:Try The Exercises</b></p>
 
-> [! YOUR TURN]  
-> Visit https://platform.openai.com/tokenizer. Clear the tool before each exercise. Enter the exercise text into the Tokenizer and observe the output - it should update interactively.
+Visit https://platform.openai.com/tokenizer. Clear the tool before each exercise. Enter the exercise text into the Tokenizer and observe the output - it should update interactively.
 
 **Exercise 1:** As a common word, "apple" requires only one token.
 
