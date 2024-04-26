@@ -276,7 +276,7 @@ Want to get a better sense of how tokenization works on real text? Use [OpenAI T
 
 https://platform.openai.com/tokenizer
 
-[Learn More:](https://help.openai.com/articles/4936856-what-are-tokens-and-how-to-count-them)
+
 
 ### Try The Example
 Visit the site and click "show example" to see it in action as shown below. Each color-coded segment represents a single token, with the total token count displayed below (57 tokens).
@@ -316,7 +316,13 @@ In this section you will review a Jupyter Notebook that uses the Microsoft.ML.To
 
 <p><img style="margin: 0px 15px 15px 0px;" src="../graphics/checkmark.png"><b>Steps</b></p>
 
-- [Open this Jupyter Notebook](https://github.com/sqlserverworkshops/OpenAI-DataPro/blob/main/notebooks/Notebook%20-%20Module%203.ipynb) and look for the "Cell" description **Create Azure OpenAI Environment.** and review the results from the instructions and code. You can download the Notebook and enter your own credentials and other variables to run it on your system once you have [completed the pre-requisites](https://github.com/sqlserverworkshops/OpenAI-DataPro/blob/main/sqldev/00%20-%20Pre-Requisites.md).
+- [Open this Jupyter Notebook](https://github.com/sqlserverworkshops/OpenAI-DataPro/blob/main/notebooks/Notebook%20-%20Module%203.ipynb) and look for the "Cell" description **Tokenization.** and review the results from the instructions and code. You can download the Notebook and enter your own credentials and other variables to run it on your system once you have [completed the pre-requisites](https://github.com/sqlserverworkshops/OpenAI-DataPro/blob/main/sqldev/00%20-%20Pre-Requisites.md).
+
+
+<p><img style="margin: 0px 15px 15px 0px;" src="../graphics/owl.png"><b>For Further Study</b></p>
+<ul>
+    <li><a href="https://help.openai.com/articles/4936856-what-are-tokens-and-how-to-count-them" target="_blank">What are tokens and how to count them?</a></li>
+</ul>
 
 <p style="border-bottom: 1px solid lightgrey;"></p><br>
 
@@ -625,18 +631,13 @@ TODO: Enter activity steps description with checkbox
 
 <p style="border-bottom: 1px solid lightgrey;"></p><br>
 
-
-
 <p><img style="margin: 0px 15px 15px 0px;" src="../graphics/owl.png"><b>For Further Study</b></p>
 <ul>
     <li><a href="https://microsoft.github.io/Workshop-Interact-with-OpenAI-models/" target="_blank">Learn how to interact with OpenAI models</a></li>
     <li><a href="https://learn.microsoft.com/en-us/ai/playbook/technology-guidance/generative-ai/" target="_blank">Generative AI</a></li>
     <li><a href="https://learn.microsoft.com/en-us/azure/search/retrieval-augmented-generation-overview" target="_blank">Retrieval Augmented Generation (RAG) in Azure AI Search</a></li>
     <li><a href="https://learn.microsoft.com/en-us/ai/playbook/solutions/generative-ai/rag-experiment-accelerator" target="_blank">Using experimentation to accelerate RAG development</a></li>
-    <li><a href="https://github.com/openai/openai-cookbook" target="_blank">OpenAI Cookbook</a></li>
-
-
-    
+    <li><a href="https://github.com/openai/openai-cookbook" target="_blank">OpenAI Cookbook</a></li> 
 </ul>
 
 
