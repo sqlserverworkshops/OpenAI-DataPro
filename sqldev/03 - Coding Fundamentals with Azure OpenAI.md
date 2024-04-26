@@ -531,6 +531,79 @@ Refresh the Playground page to reset the System Message to its default value, an
 
         Who was the first person to walk on the moon? Take a step-by-step approach in your response, cite sources, and give reasoning before sharing a final answer in the below format: ANSWER is: <name>
 
+### Function Calling
+The latest versions of gpt-35-turbo and gpt-4 are fine-tuned to work with functions and are able to both determine when and how a function should be called. If one or more functions are included in your request, the model determines if any of the functions should be called based on the context of the prompt. When the model determines that a function should be called, it responds with a JSON object including the arguments for the function.
+
+The models formulate API calls and structure data outputs, all based on the functions you specify. It's important to note that while the models can generate these calls, it's up to you to execute them, ensuring you remain in control.
+
+At a high level you can break down working with functions into three steps:
+
+1. Call the chat completions API with your functions and the user’s input
+2. Use the model’s response to call your API or function
+3. Call the chat completions API again, including the response from your function to get a final response
+
+### System Message
+First update the system message.
+
+- In this system message explain the goal of the assistant
+- Explain the information that needs to be gathered
+- Which function to all if all information is gathered
+
+
+```
+System Message
+---------------------------
+You are an AI assistant that helps people find hotels. 
+In the conversation with the user, your goal is to retrieve the required fields for the function search_hotels.
+```
+
+### OpenAI Function
+A function has three main parameters: name, description, and parameters.
+
+**Description:** The model is to determine when and how to call the function so it's important to give a meaningful description of what the function does.
+
+**Parameters:** is a JSON schema object that describes the parameters that the function accepts.
+
+```
+Functions
+---------------------------
+[{
+    "name": "search_hotels",
+    "description": "Retrieves hotels from the search index based",
+    "parameters": {
+           "type": "object",             
+           "properties": {
+                "location": {
+                    "type": "string",
+                    "description": "The location of the hotel (i.e. Seattle, WA)"
+                },
+                "price": {
+                    "type": "number",
+                    "description": "The maximum price for the hotel"
+                },
+                "features": {
+                    "type": "string",
+                    "description": "A comma separated list of features (i.e. beachfront, free wifi, etc.)"
+                }
+            },
+           "required": ["location","price","features"]
+      }
+}]
+```
+
+### Conversation
+Now let's start a conversation with the agent.
+
+**Ask:**
+
+```
+User Message
+---------------------------
+I'm looking for a hotel in the Netherlands
+```
+
+The agent should start asking you about location, price and hotel features and finally call the function and return the properties in json format.
+
 ## Challenges and limitations of prompt engineering
 
 While prompt engineering can be useful for improving the accuracy and effectiveness of LLMs inference results, it has substantial challenges and limitations.
@@ -556,6 +629,8 @@ In this section, you will review a Jupyter Notebook which will delve into **Tech
 <p><img style="margin: 0px 15px 15px 0px;" src="../graphics/owl.png"><b>For Further Study</b></p>
 <ul>
     <li><a href="https://learn.microsoft.com/en-us/ai/playbook/technology-guidance/generative-ai/working-with-llms/prompt-engineering" target="_blank">Getting started with LLM prompt engineering</a></li>
+    <li><a href="https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/function-calling" target="_blank">How to use function calling with Azure OpenAI Service</a></li>
+    
 </ul>
 
 <p style="border-bottom: 1px solid lightgrey;"></p><br>
