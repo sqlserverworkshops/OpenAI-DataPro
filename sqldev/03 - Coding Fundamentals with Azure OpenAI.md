@@ -616,10 +616,24 @@ response = client.embeddings.create(
 print(response.model_dump_json(indent=2))
 ```
 
+## RAG (Retrieval-Augmented Generation)
 
+Retrieval-Augmented Generation (RAG) combines a language model with a search system to provide more accurate and detailed information. Here are the steps needed:
+
+1. **Ask a Question:** You start by providing the RAG system with a question or prompt that you want more information about.
+2. **Find Relevant Information: The RAG system searches a large database of texts, like Wikipedia, to find passages that contain useful information related to your question.
+3. **Choose the Best Bits:** The system picks the most relevant pieces of information it found during the search to help answer the question.
+4. **Generate an Answer:** Using the chosen information, the language model creates a response that includes details from the texts it found, making the answer more accurate and informative.
+5. **Deliver the Response:** You receive an answer that's been enhanced with specific information from the search, giving you a better, well-informed reply to your question.
+
+<p align="center">
+  <img src="../graphics/rag.png">
+</p>
+
+<br>
 <p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity: Run the Embeddings Section of the Notebook</b></p>
 
-In this section, we'll explore Vector DBs, Embeddings and Chunking. You can also download this Notebook to your local system and modify it for your learning journey.
+In this section, we'll explore Vector DBs, Embeddings, Chunking and RAG. You can also download this Notebook to your local system and modify it for your learning journey.
 
 <p><img style="margin: 0px 15px 15px 0px;" src="../graphics/checkmark.png"><b>Steps</b></p>
 
