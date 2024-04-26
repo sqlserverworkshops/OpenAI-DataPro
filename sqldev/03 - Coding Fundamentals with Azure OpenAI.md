@@ -530,6 +530,20 @@ In this technique, the LLM is responsible for breaking the task down into smalle
 Refresh the Playground page to reset the System Message to its default value, and then enter the user prompt below to see 'Chain of thought prompting' in action:
 
         Who was the first person to walk on the moon? Take a step-by-step approach in your response, cite sources, and give reasoning before sharing a final answer in the below format: ANSWER is: <name>
+
+## Challenges and limitations of prompt engineering
+
+While prompt engineering can be useful for improving the accuracy and effectiveness of LLMs inference results, it has substantial challenges and limitations.
+
+Here we summarize some major challenges when using prompt engineering.
+
+- **oken size limit for prompt input:** Most LLMs have a limit on the number of tokens that can be used as input to generate a completion. This limit can be as low as a few dozen tokens. This limit can restrict the amount of context that can be used to generate accurate completions.
+- **Data for prompt engineering are not always available:** For example, prompts may require domain-specific knowledge or language that is not commonly used in everyday communication. In such cases, it may be challenging to find suitable data to use for prompt engineering. Additionally, the quality of the data used for prompt engineering affects the quality of the prompts.
+- **Evaluation becomes extremely complex as prompt volume grows:** As the number of prompts increases, it becomes more difficult to keep track of the various experiments and to isolate the effect of the prompts on the final output. This tracking difficulty can lead to confusion and make it more challenging to draw meaningful conclusions from the experiments.
+- **Complex prompts add latency and costs:** LLMs require time and resources to process and respond to complex prompts. It also adds latency that can slow down the overall process of model development and deployment. More complex prompts also increase the prompt token size in each LLM call, increasing the cost of running experiments.
+- **Small prompt changes can have a large impact:** It makes it difficult to predict how the model will behave with even small prompt changes. This can lead to unexpected results. This becomes problematic in applications where accuracy and consistency are critical, such as in automated customer service or medical diagnosis.
+
+<br>
         
 <p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity: Run the Techniques Notebook</b></p>
 
@@ -538,6 +552,11 @@ In this section, you will review a Jupyter Notebook which will delve into **Tech
 <p><img style="margin: 0px 15px 15px 0px;" src="../graphics/checkmark.png"><b>Steps</b></p>
 
 - [Open this Jupyter Notebook](https://github.com/sqlserverworkshops/OpenAI-DataPro/blob/main/notebooks/Notebook%20-%20Module%203.ipynb) and look for the "Cell" description **Techniques.** and review the results from the instructions and code. You can download the Notebook and enter your own credentials and other variables to run it on your system once you have [completed the pre-requisites](https://github.com/sqlserverworkshops/OpenAI-DataPro/blob/main/sqldev/00%20-%20Pre-Requisites.md).
+
+<p><img style="margin: 0px 15px 15px 0px;" src="../graphics/owl.png"><b>For Further Study</b></p>
+<ul>
+    <li><a href="https://learn.microsoft.com/en-us/ai/playbook/technology-guidance/generative-ai/working-with-llms/prompt-engineering" target="_blank">Getting started with LLM prompt engineering</a></li>
+</ul>
 
 <p style="border-bottom: 1px solid lightgrey;"></p><br>
 
@@ -591,8 +610,7 @@ The result of the similarity search and retrieval is usually a ranked list of ve
   <img src="../graphics/decision-guide-databases-and-ai-search.png">
 </p>
 
-
-## How to get embeddings
+## How to get Embeddings
 
 To obtain an embedding vector for a piece of text, we make a request to the embeddings endpoint as shown in the following code snippets:
 
