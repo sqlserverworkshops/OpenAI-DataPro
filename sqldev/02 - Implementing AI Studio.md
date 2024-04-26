@@ -105,17 +105,19 @@ As a developer, you can manage settings such as connections and compute. Your ad
 
 <p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Self Guided Activity: Review Azure AI Studio deep dive demo video</b></p>
 
-Review Azure AI Studio deep dive demo video
- <p><a href="https://learn.microsoft.com/en-us/azure/ai-studio/what-is-ai-studio?tabs=manage#azure-ai-studio-enterprise-chat-solution-demo"><img src="https://img.youtube.com/vi/Qes7p5w8Tz8/1.jpg" height = 200></a> 
+Watch Build your own copilots with Azure AI Studio video.
 
+<p><a href="https://learn.microsoft.com/en-us/azure/ai-studio/what-is-ai-studio?tabs=manage#azure-ai-studio-enterprise-chat-solution-demo"><img src="https://img.youtube.com/vi/3hZorLy6JiA/0.jpg" height = 200></a> 
 
 <p><img style="margin: 0px 15px 15px 0px;" src="../graphics/checkmark.png"><b>Description</b></p>
 
-Azure AI Studio ushers in a new era of generative AI development. It empowers developers to explore, build, test, and deploy their AI innovations at scale – moving faster from idea to impact. Whether creating custom copilots, enhancing search, improving call centers, developing bots and bespoke applications, or a combination of these, Azure AI Studio provides the necessary support. The unified platform is tailor-made for AI developers to integrate pre-built services and models, prompt orchestration and evaluation, content safety, and responsible AI tools for privacy, security, and compliance, helping developers navigate the complexities of generative AI with confidence.
+Build, test, deploy, and monitor your generative AI apps at scale from one place with Azure AI Studio. Access models in the Azure OpenAI service from Meta, NVIDIA and Microsoft Research, as well hundreds of open-source models. Integrate your own data across multiple data sets to ground your model, which is made easier through direct integration with OneLake in Microsoft Fabric. It uses shortcuts to let you bring in virtualized data sets across your data estate without having to move them. 
+
+Use Azure AI Studio for full lifecycle development from a unified playground for prompt engineering, to pre-built Azure AI skills to build multi-modal applications, using language, vision, and speech, as well as Search, which includes hybrid with semantic ranking for more precise information retrieval. Test your AI applications for quality and safety with built-in evaluation, and use a prompt flow tool for custom orchestration, as well as overarching controls with Responsible AI content filters for safety.
 
 <p><img style="margin: 0px 15px 15px 0px;" src="../graphics/checkmark.png"><b>Steps</b></p>
 
-Optional but recommended: Review the Azure AI Studio deep dive demo video.
+Optional but recommended: Build your own copilots with Azure AI Studio video.
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
