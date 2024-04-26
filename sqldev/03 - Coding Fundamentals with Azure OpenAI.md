@@ -27,8 +27,8 @@ The following topics are covered in this module:
   <dt><a href="#3.4" target="_blank">3.4 - Tokens</a><dt>
   <dt><a href="#3.5" target="_blank">3.5 - Prompts & Completions</a><dt>
   <dt><a href="#3.6" target="_blank">3.6 - Techniques</a><dt>
-  <dt><a href="#3.6" target="_blank">3.7 - Embeddings & Vector DBs</a><dt>
-  <dt><a href="#3.7" target="_blank">3.8 - REST, SDKs & Orchestration</a><dt>
+  <dt><a href="#3.7" target="_blank">3.7 - Embeddings & Vector DBs</a><dt>
+  <dt><a href="#3.8" target="_blank">3.8 - REST, SDKs & Orchestration</a><dt>
 
 </dl>
 
@@ -86,11 +86,12 @@ Additionally, it's crucial to store all necessary service endpoints, service API
 
 In this section you will review a Jupyter Notebook that uses a Python Kernel to run code illustrating the necessary Azure Services you need to deploy to start interacting and working with a LLM/GPT Model in Azure Open AI. You can also download this Notebook to your local system and modify it for your learning journey.
 
-TODO: Activity Description and tasks
 
 <p><img style="margin: 0px 15px 15px 0px;" src="../graphics/checkmark.png"><b>Steps</b></p>
 
-- [Open this Jupyter Notebook](https://github.com/sqlserverworkshops/OpenAI-DataPro/blob/main/notebooks/Notebook%20-%20Module%203.ipynb) and review the results from the instructions and code. You can download the Notebook and enter your own credentials and other variables to run it on your system once you have [completed the pre-requisites](https://github.com/sqlserverworkshops/OpenAI-DataPro/blob/main/sqldev/00%20-%20Pre-Requisites.md).
+- [Open this Jupyter Notebook](https://github.com/sqlserverworkshops/OpenAI-DataPro/blob/main/notebooks/Notebook%20-%20Module%203.ipynb) and look for the "Cell" description **Create Azure OpenAI Environment.**
+
+and review the results from the instructions and code. You can download the Notebook and enter your own credentials and other variables to run it on your system once you have [completed the pre-requisites](https://github.com/sqlserverworkshops/OpenAI-DataPro/blob/main/sqldev/00%20-%20Pre-Requisites.md).
 
 
 <p style="border-bottom: 1px solid lightgrey;"></p><br>
@@ -109,7 +110,7 @@ https://platform.openai.com/docs/quickstart?context=python
 <p style="border-bottom: 1px solid lightgrey;"></p><br>
 
 <!-- Tokens -->
-<h2><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">3.3 TODO: Tokens</h2>
+<h2 id="3.4"><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">3.4 - Tokens</h2>
 
 <br>
 
@@ -210,7 +211,7 @@ TODO: Activity Description and tasks
 <p style="border-bottom: 1px solid lightgrey;"></p><br>
 
 <!-- Prompts & Completions -->
-<h2><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">3.4 TODO: Prompts & Completions</h2>
+<h2 id="3.5"><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">3.5 - Prompts & Completions</h2>
 
 <br>
 
@@ -279,7 +280,7 @@ Similarly, the LLM generates a more accurate and persuasive description when pro
 <p style="border-bottom: 1px solid lightgrey;"></p><br>
 
 <!-- Techniques -->
-<h2><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">3.5 TODO: Techniques</h2>
+<h2 id="3.6"><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">3.6 - Techniques</h2>
 
 
 This section discusses prompt engineering techniques that can help LLMs solve certain problems more effectively.
@@ -322,7 +323,7 @@ Refresh the Playground page to reset the System Message to its default value, an
 <p style="border-bottom: 1px solid lightgrey;"></p><br>
 
 <!-- Embeddings & Vector DBs -->
-<h2><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">3.6 TODO: Embeddings & Vector DBs</h2>
+<h2 id="3.7"><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">3.7 - Embeddings & Vector DBs</h2>
 
 <br>
 What are embeddings?
@@ -347,7 +348,7 @@ https://platform.openai.com/docs/guides/embeddings
 <br>
 
 <!-- REST, SDKs & Orchestration -->
-<h2><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">3.7 TODO: REST, SDKs & Orchestration</h2>
+<h2 id="3.8"><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">3.8 - REST, SDKs & Orchestration</h2>
 
 <br>
 
