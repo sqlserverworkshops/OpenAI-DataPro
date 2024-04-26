@@ -115,7 +115,7 @@ Azure AI Studio ushers in a new era of generative AI development. It empowers de
 
 <p><img style="margin: 0px 15px 15px 0px;" src="../graphics/checkmark.png"><b>Steps</b></p>
 
-Time permitting review end to end demo of Azure AI Studio deep dive. 
+Optional but recommended: Review the Azure AI Studio deep dive demo video.
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
