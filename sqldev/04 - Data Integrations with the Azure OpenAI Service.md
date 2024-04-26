@@ -118,7 +118,9 @@ We would use this specifically to enrich and extract insights out of an existing
 ### Semantic Kernel
 Semantic Kernel is an open-source SDK that lets you easily build agents that can call your existing code. As a highly extensible SDK, you can use Semantic Kernel with models from OpenAI, Azure OpenAI, Hugging Face, and more. By combining your existing C#, Python, and Java code with these models, you can build agents that answer questions and automate processes.
 
-We would use the Semantic Kernel to build an interactive, RAG pattern copilot like, system.
+Retrieval Augmented Generation (RAG) is a powerful technique that combines the capabilities of large language models and information retrieval to generate text. It enables the generation of more accurate and informative responses by retrieving relevant information from a document collection. Rapid experimentation is crucial for the successful implementation of RAG systems.
+
+We would use the Semantic Kernel to build an interactive, RAG pattern copilot like, system.  For mor on RAG development see this <a href="https://learn.microsoft.com/en-us/ai/playbook/solutions/generative-ai/rag-experiment-accelerator">link on Using experimentation to accelerate RAG development</a>.
 
 ### LangChain
 LangChain is an open source framework for building applications based on large language models (LLMs). LLMs are large deep-learning models pre-trained on large amounts of data that can generate responses to user queries—for example, answering questions or creating images from text-based prompts.
