@@ -60,7 +60,7 @@ It's currently in public preview.
 
 With Azure AI Studio, you can evaluate large language model (LLM) responses and orchestrate prompt application components with prompt flow for better performance. The platform facilitates scalability for transforming proof of concepts into full-fledged production with ease. Continuous monitoring and refinement support long-term success.
 
-To navigate Azure AI Studio, you can use four tabs: Home, Explore, Build, and Manage1. Let’s take a quick look at what each tab offers.
+To navigate Azure AI Studio, you can use four tabs: Home, Explore, Build, and Manage. Let’s take a quick look at what each tab offers.
 
 ### Home
 The **Home** tab in Azure AI Studio serves as the starting point for your data science projects. Here, you'll find an organized overview of your ongoing work, including projects, datasets, and experiments. Take advantage of this central hub to efficiently manage your AI development endeavors.
