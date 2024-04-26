@@ -38,7 +38,8 @@ You also get **Java extensibility**, allowing for the use of Java code within SQ
 
 You can install the Machine Learning Services feature on SQL Server 2019 and later versions, including on Linux and in containers, and is also part of Azure SQL Managed Instance.
 
-For practical applications, you can use Machine Learning Services to create and deploy machine learning models in stored procedures, which can then be used for predictive analytics, such as forecasting, classification, and clustering tasks. This feature is particularly useful for organizations looking to modernize their data science platforms to Azure or Azure SQL²(https://azure.microsoft.com/en-us/updates/machine-learning-services-on-azure-sql-managed-instance-now-generally-available/).
+For practical applications, you can use Machine Learning Services to create and deploy machine learning models in stored procedures, which can then be used for predictive analytics, such as forecasting, classification, and clustering tasks. This feature is particularly useful for organizations looking to modernize their data science platforms to Azure or Azure SQL. 
+ For more information see the followig link <a href="https://azure.microsoft.com/en-us/updates/machine-learning-services-on-azure-sql-managed-instance-now-generally-available/">Machine Learning Services on Azure SQL Managed Instance now generally available</a>.
 
 Additionally, SQL Server Machine Learning Services can be used securely, leveraging Azure services for organizations that might not otherwise do so, and it can help mitigate AI Prompt Injection attacks by chaining AI models together to create powerful ensemble models.
 
