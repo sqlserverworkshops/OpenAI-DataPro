@@ -20,7 +20,7 @@ The following topics are covered in this module:
 
 <dl>
 
-  <dt><a href="https://github.com/sqlserverworkshops/OpenAI-DataPro/blob/main/sqldev/02%20-%20Implementing%20AI%20Studio.md#21---what-is-azure-ai-studio" target="_blank">2.1 - What is Azure AI Studio<dt></a>
+  <dt><a href="#2.1" target="_blank">2.1 - What is Azure AI Studio<dt></a>
   <dt><a href="https://github.com/sqlserverworkshops/OpenAI-DataPro/blob/main/sqldev/02%20-%20Implementing%20AI%20Studio.md#22---getting-around-in-azure-ai-studio" target="_blank">2.2 - Getting around in Azure AI Studio<dt></a>
   <dt><a href="https://github.com/sqlserverworkshops/OpenAI-DataPro/blob/main/sqldev/02%20-%20Implementing%20AI%20Studio.md#23---governance-and-administration" target="_blank">2.3 - Governance and Administration<dt></a>
   <dt><a href="https://github.com/sqlserverworkshops/OpenAI-DataPro/blob/main/sqldev/02%20-%20Implementing%20AI%20Studio.md#24---accesing-the-studio" target="_blank">2.4 - Accesing the studio<dt></a>
@@ -29,7 +29,7 @@ The following topics are covered in this module:
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
-<h2><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">2.1 - What is Azure AI Studio</h2>
+<h2 id="2.1"><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">2.1 - What is Azure AI Studio</h2>
 
 <br>
 
