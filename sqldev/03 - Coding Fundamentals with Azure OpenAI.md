@@ -21,25 +21,57 @@ The following topics are covered in this module:
 
 <dl>
 
-  <dt><a href="#3.1" target="_blank">3.1 - Environment Setup</a><dt>
-  <dt><a href="#3.2" target="_blank">3.2 - Basic Chat</a><dt>
-  <dt><a href="#3.3" target="_blank">3.3 - Tokens</a><dt>
-  <dt><a href="#3.4" target="_blank">3.4 - Prompts & Completions</a><dt>
-  <dt><a href="#3.5" target="_blank">3.5 - Techniques</a><dt>
-  <dt><a href="#3.6" target="_blank">3.6 - Embeddings & Vector DBs</a><dt>
-  <dt><a href="#3.7" target="_blank">3.7 - REST, SDKs & Orchestration</a><dt>
+  <dt><a href="#3.1" target="_blank">3.1 - Generative AI Solutions</a><dt>
+  <dt><a href="#3.2" target="_blank">3.2 - Environment Setup</a><dt>
+  <dt><a href="#3.3" target="_blank">3.3 - Basic Chat</a><dt>
+  <dt><a href="#3.4" target="_blank">3.4 - Tokens</a><dt>
+  <dt><a href="#3.5" target="_blank">3.5 - Prompts & Completions</a><dt>
+  <dt><a href="#3.6" target="_blank">3.6 - Techniques</a><dt>
+  <dt><a href="#3.6" target="_blank">3.7 - Embeddings & Vector DBs</a><dt>
+  <dt><a href="#3.7" target="_blank">3.8 - REST, SDKs & Orchestration</a><dt>
 
 </dl>
 
+<p style="border-bottom: 1px solid lightgrey;"></p>
 
+<h2><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">3.1 - Generative AI Solutions</h2>
+
+Large Language Models (LLMs) are the core of enterprise Generative AI applications. They can process and generate natural language, but they require additional components to handle user interactions, security, and other functionality to respond to or act on user inputs. The collection of these components and services that form a functional solution is called a Generative AI application. A best practice when developing a Gen AI application is to follow a standard AI Lifecycle, while utilizing Large Language Model Operations (LLMOps) tools and processes to facilitate and simplify the steps.
+
+<p align="center">
+  <img src="../graphics/aistack.png">
+</p>
+
+The absence of a unified toolset for overseeing the development of individual components and services means that creating a comprehensive end-to-end solution demands the use of connective code and custom functions. These are essential for seamlessly integrating diverse products and services into a high-quality Generative AI application tailored for enterprise use.
+
+
+
+### AI Lifecycle
+<p align="center">
+  <img src="../graphics/ai-solution-lifecycle.png">
+</p>
+
+This lifecycle represents the typical iterative approach to preparing, deploying, and improving a Gen AI application over time.
 
 <p align="center">
   <img src="../graphics/buildingblocks.png" alt="AOIA Building Blocks">
 </p>
 
-<p style="border-bottom: 1px solid lightgrey;"></p>
+### Logical architecture
 
-<h2><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">3.1 TODO: Environment Setup</h2>
+<p align="center">
+  <img src="../graphics/rag-experiment-accelerator.png">
+</p>
+
+
+
+### LLMOps
+
+Large Language Model Operations (LLMOps) acts as the orchestrator that manages all above components cohesively. LLMOps refers to the set of practices, techniques, and tools that facilitate the development, integration, testing, release, deployment, and monitoring of LLM-based applications. It establishes the operational framework, ensuring a smooth and efficient interplay among these elements throughout the application lifecycle. LLMOps ensures that LLMs remain reliable, efficient, and up to date as they are integrated into Generative AI applications.
+
+These components work together to create a stable, secure, and efficient environment for Generative AI applications to develop, deploy, operate, and evolve.
+
+<h2><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">3.2 - Environment Setup</h2>
 
 TODO: How do you hook into Azure Open AI
 
