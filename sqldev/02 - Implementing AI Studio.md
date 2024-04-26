@@ -93,7 +93,7 @@ The Build experience within Azure AI Studio empowers AI developers and machine l
 
 ### Manage
 
-Developers have the capability to manage settings related to connections and compute within Azure AI Studio. On the other hand, administrators primarily utilize this section to oversee access control, monitor usage, and handle billing aspects. It’s a division of responsibilities that ensures efficient management of the platform.
+As a developer, you can manage settings such as connections and compute. Your admin mainly uses this section to look at access control, usage, and billing.
 
 - Centralized backend infrastructure to reduce complexity for developers.
 - A single Azure AI hub resource for enterprise configuration, unified data story, and built-in governance.
