@@ -258,7 +258,7 @@ Virtual classrooms powered by AI have become essential, especially in the contex
 AI-driven personalized tutoring systems offer students additional support outside of traditional classroom settings. These virtual tutors can assist with homework, answer questions, and provide explanations on a one-on-one basis. By analyzing a student's strengths and weaknesses, these systems offer customized exercises and materials to address individual learning needs, ultimately helping students achieve their educational goals more efficiently.
 
 
-    ## Resources & References
+ ## Resources & References
 * [OWASP Top 10 for LLM applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/) and the [downloadable whitepaper](https://www.llmtop10.com/assets/downloads/OWASP-Top-10-for-LLM-Applications-v1_1.pdf)
 * [OWASP LLM AI Security & Governance Checklist](https://owasp.org/www-project-top-10-for-large-language-model-applications/llm-top-10-governance-doc/LLM_AI_Security_and_Governance_Checklist.pdf)
 * [Security Best Practices for GenAI Applications in Azure](https://techcommunity.microsoft.com/t5/azure-architecture-blog/security-best-practices-for-genai-applications-openai-in-azure/ba-p/4027885)
