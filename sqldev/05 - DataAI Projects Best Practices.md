@@ -266,4 +266,4 @@ AI-driven personalized tutoring systems offer students additional support outsid
 * [Planning red teaming for large language models (LLMs) and their applications](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/red-teaming)
 
 
-Congratulations! You have completed this Workshop.You can now extrapolate what you have learned to your development environments.</a>.
+Congratulations! You have completed this Workshop.You can now extrapolate what you have learned to your development environments.</a>
