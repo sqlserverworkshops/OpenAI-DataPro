@@ -55,7 +55,7 @@ The diagram below is from [OWASP Top 10 for Large Language Model Applications](h
 
 
 ## Security Strategies  
-Infrastructure plays an indispensable role in helping create a secure landscape for *GenAI* applications, particularly cloud environments. Below are strategies tht can help ensure the security of a *GenAI* environment:    
+Infrastructure plays an indispensable role in helping create a secure landscape for *GenAI* applications, particularly cloud environments. Below are strategies that can help ensure the security of a *GenAI* environment:    
 * **Threat Modeling** Include *GenAI* apps in your threat modeling practice. Understand that *GenAI* can extend attack surface with access to underlying or referenced data sources, access to model API keys, workflow orchestration, and agents and plugins. Learn more about what can go wrong with [The AI Attack Surface Map v1.0](https://danielmiessler.com/p/the-ai-attack-surface-map-v1-0/).
 * **Architecture strategies** help ensure  a secure, scalable, and available environment. 
   * [Baseline OpenAI end-to-end chat reference architecture](https://learn.microsoft.com/en-us/azure/architecture/ai-ml/architecture/baseline-openai-e2e-chat): a baseline architecture for building and deploying enterprise chat apps that use Azure OpenAI.
