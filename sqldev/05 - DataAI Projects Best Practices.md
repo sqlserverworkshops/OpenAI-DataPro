@@ -134,12 +134,12 @@ The approach used was grounded in principles, standards, practices that were use
 * **RAI tools and guidance** such as the Responsible AI Maturity Model, HAX Toolkit, RAI Toolbox, and more (link [here](https://aka.ms/rai)).
   
 ## Complete an impact assessment
-A *Responsible AI impact assessment* is the process a product team follows to identify and assess the potential risks and harms of an AI system.  It is a new process, and some organizations may be reluctant to consider it, giving reasons such as:
+A RAI impact assessment is the process a product team follows to identify and assess the potential risks and harms of an AI system.  It is a new process, and some organizations may be reluctant to consider it, giving reasons such as:
 * *It is still too early in AI lifecycle to do impact assessments. RAI is mostly academic*.
 * *AI is so new. How can we expect product teams to know about potential risks and harms?*
 * *Discussions around RAI will only devolve into messy disagreements and take time away from design/development/deployment timelines.*
 
-An RAI impact assessment is the primary method for guiding a team through the process of examining an AI system and aligning it to responsible AI principles and standards. The questions it examines include: *What are the use cases for the AI system? Who are the stakeholders? How do we monitor and measure AI? Who might be harmed and how? How do we prevent these harms?*
+A RAI impact assessment is the primary method for guiding a team through the process of examining an AI system and aligning it to responsible AI principles and standards. The questions it examines include: *What are the use cases for the AI system? Who are the stakeholders? How do we monitor and measure AI? Who might be harmed and how? How do we prevent these harms?*
 
 The purpose of a good RAI impact assessment is to identify the potential risks and harms of an AI system and introduce mitigations to reduce negative consequences. The templates and guidance introduced above can help a team put responsible AI principles to work.  Consider adjustments to better align with your organizational requirements and product team processes. 
 
