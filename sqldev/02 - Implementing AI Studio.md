@@ -160,7 +160,8 @@ For this exercise you will chose the link in the steps below. Follow the instruc
 
 <p><img style="margin: 0px 15px 15px 0px;" src="../graphics/checkmark.png"><b>Steps</b></p>
 
-- If you have an Azure subscription with access to the Azure OpenAI service, you can explore Azure AI Studio for yourself.
+If you have an Azure subscription with access to the Azure OpenAI service, you can explore Azure AI Studio for yourself.
+
 - https://learn.microsoft.com/en-us/training/modules/introduction-to-azure-ai-studio/5-exercise-explore-ai-studio
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
