@@ -110,7 +110,7 @@ You can see more about privacy and compliance in the Microsoft Azure OpenAI serv
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
-<h2><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">4.2 Responsible AI</h2>
+<h2><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">5.2 Responsible AI</h2>
 
 # Guidance: Responsible AI (RAI)
 
