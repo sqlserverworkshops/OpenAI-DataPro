@@ -132,24 +132,24 @@ Azure AI Studio provides flexibility, cost transparency, and responsible AI prac
 **Preview Phase**:
    - During the preview phase, there's **no extra charge** for using Azure AI Studio.
    - When deploying solutions, **Azure AI services**, **Azure Machine Learning**, and other Azure resources used within Azure AI Studio will be billed at their existing rates.
-   - Keep in mind that pricing is subject to change when Azure AI Studio becomes generally available².
+   - Keep in mind that pricing is subject to change when Azure AI Studio becomes generally available.
 
 **Cost Estimation and Planning**:
    - **Azure Pricing Calculator**: Before adding any resources to Azure AI Studio, use the Azure pricing calculator to estimate costs. It helps you plan for Azure AI Studio costs.
-   - As you add Azure resources, review the estimated costs. Remember that costs for Azure AI services are only a portion of the monthly costs in your Azure bill. You're billed for all Azure services and resources used in your Azure subscription, including third-party services¹.
+   - As you add Azure resources, review the estimated costs. Remember that costs for Azure AI services are only a portion of the monthly costs in your Azure bill. You're billed for all Azure services and resources used in your Azure subscription, including third-party services.
 
 **Billing Models**:
    - **Pay-as-you-go**: With pay-as-you-go pricing, you're billed according to the Azure AI services offering you use, based on its billing information.
-   - **Commitment Tiers**: Commitment tier pricing allows you to commit to using several service features for a fixed fee, ensuring predictable total costs based on your workload needs¹.
+   - **Commitment Tiers**: Commitment tier pricing allows you to commit to using several service features for a fixed fee, ensuring predictable total costs based on your workload needs.
 
 <h2 id="2.4"><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">2.4 - Accesing the studio</h2><br>
 
 In this section, you will learn how to access and register for Azure AI Studio.
 
-### Limited access to Azure OpenAI Service
-As part of Microsoft's commitment to responsible AI, we are designing and releasing Azure OpenAI Service with the intention of protecting the rights of individuals and society and fostering transparent human-computer interaction. For this reason, we currently limit the access and use of Azure OpenAI, including limiting access to the ability to modify content filters and/or abuse monitoring.
+### Access to Azure OpenAI Service
+Microsoft is committed to responsible AI, and that's why we are creating and launching Azure OpenAI Service with the goal of safeguarding the rights of people and society and promoting transparent human-computer interaction. Therefore, we now restrict the access and use of Azure OpenAI, which includes restricting access to changing content filters and/or abuse monitoring. 
 
-Azure OpenAI requires registration and is currently only available to approved enterprise customers and partners.
+Azure OpenAI needs registration and is currently only open to approved enterprise customers and partners.
 
 ### Registering
 You can explore Azure AI Studio without signing in, but for full functionality an Azure account is needed and apply for access to Azure OpenAI Service by completing the form at https://aka.ms/oai/access. You receive a follow-up email when your subscription has been added.
@@ -168,6 +168,7 @@ If you have an Azure subscription with access to the Azure OpenAI service, you c
 
 <p><img style="margin: 0px 15px 15px 0px;" src="../graphics/owl.png"><b>For Further Study</b></p>
 <ul>
+    <li><a href="https://learn.microsoft.com/en-us/azure/ai-studio/tutorials/deploy-copilot-ai-studio/">Tutorial: Build and deploy a question and answer copilot with prompt flow in Azure AI Studio</a></li>  
     <li><a href="https://www.youtube.com/watch?v=Qes7p5w8Tz8&ab_channel=MicrosoftAzure/">Azure AI Studio deep dive demo</a></li>
     <li><a href="https://learn.microsoft.com/en-us/azure/ai-studio/faq/">Azure AI frequently asked questions - Azure AI Studio</a></li>
 </ul>
