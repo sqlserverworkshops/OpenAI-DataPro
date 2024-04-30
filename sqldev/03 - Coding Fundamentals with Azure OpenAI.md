@@ -811,8 +811,107 @@ Connection: close
 
 In this response, you can see information like token usage and processing time. The data section would typically contain the output vector.
 
+## Calling LLM using SDK
 
+The Azure OpenAI client library for .NET allows developers to seamlessly integrate Azure OpenAI into their applications using familiar C# concepts. It provides an idiomatic interface for interacting with Azure OpenAI services and is suitable for both Azure-hosted and external OpenAI resources.
 
+The ChatCompletion interface from OpenAI models is a way to interact with Large Language Models like gpt-35-turbo or gpt4 using a chat format. Unlike the Completion API, which takes a single text input as a prompt, the ChatCompletion API takes multiple text inputs as messages, each with a role and a content.
+
+The roles can be either “system”, “user”, or “assistant”. The system role is used to provide instructions or settings for the assistant, such as its personality or behavior. The user role is used to provide queries or inputs from the human user. The assistant role is used to provide responses or outputs from the model. Providing data for user and assistant as part of the request supports few-shot learning, which trains the model on a small number of labeled samples per request.
+
+The ChatCompletion API also accepts parameters such as top_p, temperature, frequency_penalty, and presence_penalty, which control the randomness and diversity of the generated text.
+
+The ChatCompletion API is supported by models starting with gpt-35-turbo, which also support the Completion API. However, older models only support the Completion API and newer models like gpt-4 only support the ChatCompletion API.
+
+![Overview](../graphics/SDK_ChatCompletion_Intro.png) 
+
+Microsoft provides with the Azure.AI.OpenAI nuget package a library that simplifies the use of OpenAI models in .NET applications. It encapsulates the REST API endpoints from the large language model instance and provides the functionality in an easy to adopt and to consume way.
+
+The SDK covers all communication aspects like authentication and authorization, data exchange, error handling, and content filtering. The SDK also integrates with other Azure SDK components, such as Azure Identity and Azure Core, to provide a consistent and seamless experience for .NET developers.
+
+## Getting Started
+
+To work with the Azure OpenAI SDK in your .NET application, you can directly load the required packages in your polyglot notebooks using the following command:
+
+```c
+#r "nuget: Azure.AI.OpenAI, 1.0.0-beta.8"
+```
+You will notice all packages are added the same way.
+
+## Example Usage
+Here's an example of how to use the SDK to send a completion request:
+```c#
+using Azure.AI.OpenAI;
+
+var client = new OpenAIClient(new Uri("your-openai-endpoint"), new AzureKeyCredential("your-api-key"));
+var response = await client.Completions.CreateAsync(new CompletionRequest("Translate 'Hello, world!' to Spanish."));
+Console.WriteLine(response.Value.Choices[0].Text);
+```
+
+# Semantic Kernel
+
+## Introduction
+
+The [Azure Semantic Kernel](https://github.com/microsoft/semantic-kernel) is an open-source SDK that facilitates the integration of large language models (LLMs) with programming languages like C#, Python, and JavaScript. Utilized by Microsoft for AI application development, including Co-Pilots, this SDK is designed for modularity and extensibility, featuring core concepts like Plugins, Memory, Planner, and Connections.
+
+![Concept Overview](../graphics/01_ConceptOverview.png) *A visual representation of the Semantic Kernel's core concepts.*
+
+Plugins extend SDK functionality; Memory serves as a context store; the Planner generates goal-oriented plans; and Connections interface with external data sources and services.
+
+For more details, visit the [Semantic Kernel documentation](https://learn.microsoft.com/en-us/semantic-kernel/).
+
+## Core Concepts
+
+Before diving into the core concepts, it's essential to understand that the Semantic Kernel is structured to enhance AI application development through these foundational elements.
+
+### Plugin / Functions
+
+Plugins in Semantic Kernel encapsulate functions that applications can use. These include semantic functions—defined inline or via files—and native functions. They streamline tasks where LLMs are advantageous, offering a unified interface for function calls.
+
+![Plugins](../graphics/02_Plugin.png) *The structure of Plugins in the Semantic Kernel.*
+
+#### Plugin Documentation
+
+- [AI Plugins in Semantic Kernel](https://learn.microsoft.com/en-us/semantic-kernel/ai-orchestration/plugins/?tabs=Csharp): A guide to understanding and using AI plugins.
+- [Inline Semantic Functions](https://learn.microsoft.com/en-us/semantic-kernel/ai-orchestration/plugins/semantic-functions/inline-semantic-functions?tabs=Csharp): Instructions for creating semantic functions inline.
+- [Using Native Functions](https://learn.microsoft.com/en-us/semantic-kernel/ai-orchestration/plugins/native-functions/using-the-skfunction-decorator?tabs=Csharp): How to execute native code with the Semantic Kernel.
+
+### Memory
+
+Semantic Kernel's Memory abstracts the embedding model and vector databases, simplifying context management for AI applications. It's agnostic to the underlying LLM or Vector DB, offering a uniform developer experience.
+
+![Memory](../graphics/03_Memory.png) *An overview of Memory in Semantic Kernel.*
+
+#### Memory Documentation
+
+- [Understanding Memories](https://learn.microsoft.com/en-us/semantic-kernel/memories/): Explore the concept and functionalities of Memories.
+- [Vector Databases](https://learn.microsoft.com/en-us/semantic-kernel/memories/vector-db): Learn about vector databases and their role in AI contexts.
+
+### Planner
+
+The Planner is a novel feature of the Semantic Kernel that devises execution strategies from user requests. It dynamically orchestrates Plugins to fulfill complex tasks with AI-assisted planning.
+
+![Planner](../graphics/04_Planner.png) *Illustration of how the Planner operates within the Semantic Kernel.*
+
+#### Planner Documentation
+
+- [AI Orchestration with Planners](https://learn.microsoft.com/en-us/semantic-kernel/ai-orchestration/planners/): An in-depth look at the Planner's AI orchestration capabilities.
+
+### RAG
+
+Semantic Kernel makes it easy for developers to implement a RAG (Retrieval Augmented Generation) pattern by providing an abstraction layer to OpenAI models and Vector Databases.
+
+![RAG](../graphics/07_RAG.png)
+
+Steps to implement a RAG pattern:
+
+1. Create Semantic Kernel instance
+2. Create Semantic Text Memory and Semantic Memory Service
+3. Ingest Data which is used to ground user queries into Semantic Text Memory
+4. Retrieve grounding information form Semantic Text Memory based on user query
+5. Complete user query (user query & retrieved grounding information) by calling ChatCompletion endpoint
+
+<br><br>
 <p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity: Run the REST, SDKs & Orchestration Notebook</b></p>
 
 In this section, you will review a Jupyter Notebook and explore different SDKs (LangChan, Semantic Kernal) and orchestration methods such as Assistants APIs. You can also download this Notebook to your local system and modify it for your learning journey.
