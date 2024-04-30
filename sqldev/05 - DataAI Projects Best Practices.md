@@ -69,7 +69,7 @@ Infrastructure plays an indispensable role in helping create a secure landscape 
     * Ensure related services are deployed securely (AI Search, Cosmos DB, etc.)
     * Secure and validate training data and ingestion pipelines  
 * **Governance strategies** help ensure the infrastructure is being used is meeting security and compliance requirements and that policies and procedures are in place to manage risk and accountability: 
-  * Become familiar with Responsible AI principles and frameworks and integrate them early in the development of your application.  More here: [Responsible AI](./responsible-ai)
+  * Become familiar with Responsible AI principles and frameworks and integrate them early in the development of your application.  For more refer to section 5.2 Responsible AI. 
   * Leverage platform capabilities for logging, auditing, and monitoring *GenAI* apps.  See: [Implement logging and monitoring for Azure OpenAI models](https://learn.microsoft.com/en-us/azure/architecture/ai-ml/openai/architecture/log-monitor-azure-openai). 
   
 ## Adversarial Prompting
