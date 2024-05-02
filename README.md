@@ -53,8 +53,10 @@ The solution includes the following technologies - although you are not limited 
 
   <tr><th style="background-color: #1b20a1; color: white;">Technology</th> <th style="background-color: #1b20a1; color: white;">Description</th></tr>
 
-  <tr><td> Microsoft SQL Server</i></td><td> Part of this course involves the use of SQL Server with Machine Learning Services. You'll also use SQL Server as a "Data Source" for using or training AI constructs.</td></tr>
-  <tr><td> Microsoft Fabric Analytics</td><td> This course also uses Microsoft Fabric Analytics as a platform for AI. You'll want to be familiar with the basics of this platform to use it for those AI applications.</td></tr>
+  <tr><td> <a href="https://learn.microsoft.com/en-us/sql/sql-server/what-is-sql-server?view=sql-server-ver16">Microsoft SQL Server </a></td><td> Part of this course involves the use of SQL Server with Machine Learning Services. You'll also use SQL Server as a "Data Source" for using or training AI constructs.</td></tr>
+  <tr><td> <a href="https://learn.microsoft.com/en-us/fabric/get-started/microsoft-fabric-overview">Microsoft Fabric Analytics</a></td><td> This course also uses Microsoft Fabric Analytics as a platform for AI. You'll want to be familiar with the basics of this platform to use it for those AI applications.</td></tr>
+  <tr><td> <a href="https://www.dataquest.io/blog/jupyter-notebook-tutorial/">Jupyter Notebooks</a></td><td> The Activities in this Workshop primarily use Jupyter Notebooks to explain and run code.</td></tr>
+  
 
 </table>
 
