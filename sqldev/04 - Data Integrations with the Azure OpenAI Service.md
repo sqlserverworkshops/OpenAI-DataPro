@@ -126,7 +126,7 @@ We would use the Semantic Kernel to build an interactive, RAG pattern copilot li
 ### LangChain
 LangChain is an open source framework for building applications based on large language models (LLMs). LLMs are large deep-learning models pre-trained on large amounts of data that can generate responses to user queries—for example, answering questions or creating images from text-based prompts.
 
-Similar to the Semantic Kernel we would utilize LangChain to create intereactive user systems.  LangChain is trained on a pre-trained on open internet dataset.
+Similar to the Semantic Kernel we would utilize LangChain to create intereactive user systems.  LangChain is trained on a pre-trained on open internet dataset.  For an example of using LangChain in Microsoft Fabric see the following video, <a href="https://youtu.be/yM0YLpngAj4">Use OpenAI with ChatGPT in Microsoft Fabric, with Beautiful Soup & OneLake, to go to the MOVIES!!</a>
 
 
 
