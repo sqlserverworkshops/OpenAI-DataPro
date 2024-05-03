@@ -933,6 +933,7 @@ In this section, you will review a Jupyter Notebook and explore different SDKs (
     <li><a href="https://learn.microsoft.com/en-us/azure/search/retrieval-augmented-generation-overview" target="_blank">Retrieval Augmented Generation (RAG) in Azure AI Search</a></li>
     <li><a href="https://learn.microsoft.com/en-us/ai/playbook/solutions/generative-ai/rag-experiment-accelerator" target="_blank">Using experimentation to accelerate RAG development</a></li>
     <li><a href="https://github.com/openai/openai-cookbook" target="_blank">OpenAI Cookbook</a></li> 
+    <li><a href="https://aka.ms/openai-mm" target="_blank">OpenAI Mindmap</a></li>
 </ul>
 
 

@@ -299,6 +299,7 @@ In this section you will review a Jupyter Notebook that uses a Python Kernel to 
     <li><a href="https://becominghuman.ai/" target="_blank">There are a few "Cheat Sheets" for AI concepts here</a></li>
     <li><a href="https://www.geeksforgeeks.org/artificial-intelligence-an-introduction" target="_blank">There is a good overview of Artificial Intelligence Concepts here</a></li>
     <li><a href="https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/" target="_blank">One of the best explanations of how ChatGPT works is here</a></li>
+    <li><a href="https://aka.ms/openai-mm" target="_blank">OpenAI Mindmap</a></li>
 </ul>
 
 Congratulations! You have completed this Module.<a href="https://github.com/sqlserverworkshops/OpenAI-DataPro/blob/main/sqldev/02%20-%20Implementing%20AI%20Studio.md"> Click this link to continue to the next Module in the Workshop</a>.
