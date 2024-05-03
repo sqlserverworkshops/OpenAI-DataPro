@@ -157,7 +157,7 @@ In this exercise you will review a complete walkthrough of how to utilize Copilo
 <p><img style="margin: 0px 15px 15px 0px;" src="../graphics/owl.png"><b>For Further Study</b></p>
 <ul>
     <li><a href="https://blog.fabric.microsoft.com/en-US/blog/chat-your-data-in-microsoft-fabric-with-semantic-kernel/" target="_blank">Chat your data in Microsoft Fabric with Semantic Kernel</a></li>
-     <li><a href="https://youtu.be/0jOEUeOykzQ" target="_blank">#How to Chat with Your #Data in #MicrosoftFabric with #SemanticKernel using #Azure #OpenAI #ChatGPT!</a></li>
+     <li><a href="https://youtu.be/0jOEUeOykzQ" target="_blank">How to Chat with Your Data in Microsoft Fabric with Semantic Kernel using Azure OpenAI ChatGPT!</a></li>
      <li><a href="https://youtu.be/GOq5gOdKEVs" target="_blank">Microsoft Fabric Copilot for Notebooks & Data Science! Magic commands to write, execute, & FIX code!</a></li>
     <li><a href="https://www.youtube.com/watch?v=HzdZ0n0lpFw" target="_blank">Data Science in Microsoft Fabric – Model scoring with PREDICT</a></li>
     <li><a href="https://blog.fabric.microsoft.com/en-us/blog/fabric-change-the-game-unleashing-the-power-of-microsoft-fabric-and-openai-for-dataset-search/" target="_blank">Fabric Change the Game: Unleashing the Power of Microsoft Fabric and OpenAI for Dataset Search</a></li>
