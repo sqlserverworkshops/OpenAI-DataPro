@@ -532,7 +532,7 @@ Refresh the Playground page to reset the System Message to its default value, an
         Who was the first person to walk on the moon? Take a step-by-step approach in your response, cite sources, and give reasoning before sharing a final answer in the below format: ANSWER is: <name>
 
 ### Function Calling
-The latest versions of gpt-35-turbo and gpt-4 are fine-tuned to work with functions and are able to both determine when and how a function should be called. If one or more functions are included in your request, the model determines if any of the functions should be called based on the context of the prompt. When the model determines that a function should be called, it responds with a JSON object including the arguments for the function.
+The latest versions of gpt-35-turbo and gpt-4 are fine-tuned to work with functions and are able to both determine when and how a function should be called. **If one or more functions are included in your request, the model determines if any of the functions should be called based on the context of the prompt.** When the model determines that a function should be called, it responds with a JSON object including the arguments for the function.
 
 The models formulate API calls and structure data outputs, all based on the functions you specify. It's important to note that while the models can generate these calls, it's up to you to execute them, ensuring you remain in control.
 
@@ -710,6 +710,9 @@ print(response.model_dump_json(indent=2))
 ```
 
 ## RAG (Retrieval-Augmented Generation)
+
+### What Is It?
+Large Language Model (LLM) systems comprehend a wide array of subjects, but their knowledge is limited to publicly available information up to a certain temporal threshold. If there is a need to develop AI tools with the capability to comprehend confidential data or novel information, integrating the necessary data into the model becomes imperative. We commonly refer to this process as Retrieval Augmented Generation (RAG). This process may also be referred to as ‘grounding’ a model.
 
 Retrieval-Augmented Generation (RAG) combines a language model with a search system to provide more accurate and detailed information. Here are the steps needed:
 
