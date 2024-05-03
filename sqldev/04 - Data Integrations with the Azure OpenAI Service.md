@@ -135,7 +135,13 @@ Similar to the Semantic Kernel we would utilize LangChain to create intereactive
 
 Once we provision an Azure Open AI model and we have our deployment name, API Key, and our Azure Open AI endpoint we can begin the process of calling our Azure Open AI model.
 
+<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity: Review process and code for using the Semantic Kernel to create a Custom Copilot</b></p>
 
+In this exercise you will review a complete walkthrough of how to utilize the Semantic Kernel to create a custom Copilot using Prompt Engineering in Microsoft Fabric Notebooks. 
+
+<p><img style="margin: 0px 15px 15px 0px;" src="../graphics/checkmark.png"><b>Steps</b></p>
+
+- [Open this resource](https://github.com/sqlserverworkshops/OpenAI-DataPro/blob/main/notebooks/04%20Promt%20Engineering%20SemanticKernelChatWithYourData%202%20models%20trial%20and%20error%20for%20Github.ipynb) and review the results from the instructions and code. You can download the code and enter your own credentials and other variables to run it on your Microsoft Fabric Capacity once you have [completed the pre-requisites](https://github.com/sqlserverworkshops/OpenAI-DataPro/blob/main/sqldev/00%20-%20Pre-Requisites.md).
 
 <p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity: Review process and code for using AI and OpenAI with Microsoft Fabric</b></p>
 
