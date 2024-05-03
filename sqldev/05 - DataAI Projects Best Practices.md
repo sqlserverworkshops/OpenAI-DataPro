@@ -27,7 +27,7 @@ The following topics are covered in this module:
 </dl>
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
-
+<h2 id="4.1">
 <h2><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">5.1 Security for Generative AI (GenAI) Applications</h2>
 
 It's important to recall that the foundation of AI security is proper IT platform security. Regardless of the actions you take for your environment, every access point is important. For Microsoft OpenAI, you should start with a sound understanding of the general security setup for Microsoft Azure: 
