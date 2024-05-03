@@ -133,7 +133,7 @@ Similar to the Semantic Kernel we would utilize LangChain to create intereactive
 <i>*Additional services such as Azure AI, formerly known  as Azure Cognitive Service, and their models <a href="https://blog.fabric.microsoft.com/en-in/blog/prebuilt-azure-ai-services-in-fabric-2?ft=All">can also be used in Microsoft Fabric as well.</a></i>
 
 
-Once we provision an Azure Open AI model and we have our deployment name, API Key, and our Azure Open AI endpoint we can begin the process of calling our Azure Open AI model.
+Once we provision an Azure Open AI model and we have our deployment name, API Key, and our Azure Open AI endpoint we can begin the process of calling our Azure Open AI model.  For more on how to provision an Azure Open AI Model and get your API Key see this video, <a href="https://youtu.be/80PNo4tS5sU">How to Provision an Azure Open AI model to use in Microsoft Fabric!</a>
 
 <p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity: Review process and code for using the Semantic Kernel to create a Custom Copilot</b></p>
 
